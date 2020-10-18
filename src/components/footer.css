@@ -1,0 +1,52 @@
+.footer-container {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.footer-right {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.footer-thanks-text {
+    line-height: 1.65em;
+    max-width: 500px;
+}
+
+.footer-contact {
+    margin-right: 64px;
+}
+
+.footer-email p {
+    margin-bottom: 16px;
+}
+
+.footer-navigation {
+    margin-right: 64px;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav a {
+    margin-bottom: 16px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    margin-bottom: 16px;
+}

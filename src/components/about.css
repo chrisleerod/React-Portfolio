@@ -1,0 +1,90 @@
+.about-container {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 152px;
+    margin-bottom: 128px;
+}
+
+.me-pic {
+    max-width: 550px;
+    display: flex;
+}
+
+.me-pic img {
+    width: 100%;
+    margin-right: 32px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.me-card-container {
+    padding: 16px;
+    background-color: #1F2027;
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 64px;
+}
+
+.me-card {
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    margin-right: 16px;
+    padding: 8px;
+    background-color: #EACFFF;
+    border-radius: 50%;
+    max-width: 64px;
+    max-height: 64px;
+    width: 100%;
+    height: 100%;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.info {
+    line-height: 1.65em;
+}
+
+.section {
+    margin-bottom: 32px;
+}
+
+.title-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.body-text {
+    line-height: 1.65em;
+    margin-top: 16px;
+}
+
+.link-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link-container a {
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+.link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #1F2027;
+    font-size: 14px;
+    font-weight: 600;
+    color: #CFDFFF;
+}

@@ -1,0 +1,111 @@
+.top-container {
+  
+}
+
+.header-container {
+  overflow: hidden;
+}
+
+.top {
+    margin-top: 152px;
+  }
+  
+  .top h1 {
+    font-size: 54px;
+    max-width: 1200px;
+    font-weight: 600;
+    line-height: 1.35em;
+  }
+  
+  .intro-p {
+    margin-top: 64px;
+    font-size: 24px;
+    max-width: 750px;
+    line-height: 1.5em;
+    font-weight: 300;
+    line-height: 1.65em;
+  }
+  
+  .about-button {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #1F2027;
+    font-size: 14px;
+    font-weight: 600;
+    color: #CFDFFF;
+  }
+
+  .about-button-container {
+    margin-top: 32px;
+  }
+
+  .content {
+    margin-top: 128px;
+    margin-bottom: 128px;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr repeat(3, minmax(auto, 60px)) 1fr;
+    grid-gap: 32px;
+  }
+
+  .card {
+    grid-column: 2 span 12;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(auto, 60px));
+    grid-gap: 32px;
+  }
+
+  .card {
+    grid-column-end: span 4;
+  }
+
+  .tags {
+    display: flex;
+  }
+
+  .product-design {
+    margin-right: 8px;
+    padding: 8px 4px;
+    background-color: rgba(0, 0, 0, .15);
+  }
+
+  .engineering {
+    padding: 8px 4px;
+    background-color: rgba(0, 0, 0, .15);
+  }
+
+  .view {
+    display: flex;
+  }
+
+  .view-case {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+
+  @media only screen and (max-width: 500px) {
+    .top {
+      margin-top: 128px;
+    }
+    .top h1 {
+      font-size: 36px;
+    }
+    .intro-p {
+      font-size: 16px;
+    }
+    .content {
+      margin-top: 128px;
+    }
+    .nav {
+      display: none;
+    }
+  }
