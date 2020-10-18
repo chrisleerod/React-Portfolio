@@ -13,13 +13,103 @@ export const Homepage = () => {
             <div className="top-container">
                 <div className="top">
                     <div className="header-container">
-                        <motion.h1
-                        initial={{ y: 140 }}
-                        animate={{ y: 0 }}
-                        transition={{ duration: .7 }}
-                        >
-                            Product designer. Front-end engineer. Student.
-                        </motion.h1>
+                        <div className="header">
+                            <motion.h1
+                            initial={{y: 100,
+                            opacity: 0
+                            }}
+                            animate={{y: 0,
+                            opacity: 1
+                            }}
+                            transition={{
+                                delay: 0.075,
+                                ease: "circOut",
+                                duration: 1,
+                            }}
+                            >
+                                Product{' '}
+                            </motion.h1>
+                        </div>
+                        <div className="header">
+                            <motion.h1
+                            initial={{y: 100,
+                            opacity: 0
+                            }}
+                            animate={{y: 0,
+                            opacity: 1
+                            }}
+                            transition={{
+                                delay: 0.15,
+                                ease: "circOut",
+                                duration: 1,
+                            }}
+                            // transition={{ duration: .6,
+                            // delay: 0.14
+                            // }}
+                            >
+                                designer.{' '}
+                            </motion.h1>
+                        </div>
+                        <div className="header">
+                            <motion.h1
+                            initial={{y: 100,
+                            opacity: 0
+                            }}
+                            animate={{y: 0,
+                            opacity: 1
+                            }}
+                            transition={{
+                                delay: 0.225,
+                                ease: "circOut",
+                                duration: 1,
+                            }}
+                            // transition={{ duration: .6,
+                            // delay: 0.18
+                            // }}
+                            >
+                                Front-end{' '}
+                            </motion.h1>
+                        </div>
+                        <div className="header">
+                            <motion.h1
+                            initial={{y: 100,
+                            opacity: 0
+                            }}
+                            animate={{y: 0,
+                            opacity: 1
+                            }}
+                            transition={{
+                                delay: 0.3,
+                                ease: "circOut",
+                                duration: 1,
+                            }}
+                            // transition={{ duration: .6,
+                            // delay: 0.22
+                            // }}
+                            >
+                                engineer.{' '}
+                            </motion.h1>
+                        </div>
+                        <div className="header">
+                            <motion.h1
+                            initial={{y: 100,
+                            opacity: 0
+                            }}
+                            animate={{y: 0,
+                            opacity: 1
+                            }}
+                            transition={{
+                                delay: 0.375,
+                                ease: "circOut",
+                                duration: 1,
+                            }}
+                            // transition={{ duration: .6,
+                            // delay: 0.26
+                            // }}
+                            >
+                                Student.
+                            </motion.h1>
+                        </div>
                     </div>
                     <p className="intro-p">
                         Hi, I'm Chris –– a <span style={{ fontStyle: "italic", fontWeight: "600" }}>product designer</span>,

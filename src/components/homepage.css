@@ -3,7 +3,14 @@
 }
 
 .header-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.header {
   overflow: hidden;
+  white-space: pre;
 }
 
 .top {
