@@ -13,7 +13,7 @@ export const Card = ({ index, card }) => {
   const { title, color, tags, link, image, date, action } = card;
 
   return (
-    <div style={{ backgroundColor: color || '' }} className={`card-item item-${index}`}>
+    <Link to={link} style={{ backgroundColor: color || '' }} className={`card-item item-${index}`}>
       <div className="text-container">
         <div className="text-index">
           <div className="row">
@@ -35,6 +35,6 @@ export const Card = ({ index, card }) => {
           <img className={`thumb thumb-${index}`} alt="" src={image} />
         </div>
       </div>
-    </div>
+    </Link>
   )
 };
