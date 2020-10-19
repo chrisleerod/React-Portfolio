@@ -8,6 +8,7 @@ import About from "./components/about.js";
 import Process from "./components/process.js";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
+import BG from './components/images/grid-bg.svg';
 
 //icons
 import { ReactComponent as arrowRight } from "../src/icons/arrow-right.svg"

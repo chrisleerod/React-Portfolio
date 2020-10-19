@@ -16,7 +16,7 @@ export const Homepage = () => {
                         <div className="header">
                             <motion.h1
                             initial={{y: 100,
-                            opacity: 0
+                            opacity: 1
                             }}
                             animate={{y: 0,
                             opacity: 1
@@ -33,7 +33,7 @@ export const Homepage = () => {
                         <div className="header">
                             <motion.h1
                             initial={{y: 100,
-                            opacity: 0
+                            opacity: 1
                             }}
                             animate={{y: 0,
                             opacity: 1
@@ -53,7 +53,7 @@ export const Homepage = () => {
                         <div className="header">
                             <motion.h1
                             initial={{y: 100,
-                            opacity: 0
+                            opacity: 1
                             }}
                             animate={{y: 0,
                             opacity: 1
@@ -73,7 +73,7 @@ export const Homepage = () => {
                         <div className="header">
                             <motion.h1
                             initial={{y: 100,
-                            opacity: 0
+                            opacity: 1
                             }}
                             animate={{y: 0,
                             opacity: 1
@@ -93,7 +93,7 @@ export const Homepage = () => {
                         <div className="header">
                             <motion.h1
                             initial={{y: 100,
-                            opacity: 0
+                            opacity: 1
                             }}
                             animate={{y: 0,
                             opacity: 1
