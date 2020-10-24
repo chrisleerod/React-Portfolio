@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 import Navbar from "./components/navbar.js";
 import Footer from "./components/footer.js";
@@ -20,13 +20,11 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <AnimatePresence exitBeforeEnter initial={false}>
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/about" component={About} />
           <Route path="/process" component={Process} />
         </Switch>
-      </AnimatePresence>
       <Footer />
     </Router>
   );

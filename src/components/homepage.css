@@ -18,9 +18,9 @@
   }
   
   .top h1 {
-    font-size: 54px;
+    font-size: 81px;
     max-width: 1200px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.35em;
   }
   
@@ -38,10 +38,10 @@
     align-items: center;
     padding: 8px 16px;
     border-radius: 4px;
-    background-color: #1F2027;
+    background-color: #F2F2F2;
     font-size: 14px;
-    font-weight: 600;
-    color: #CFDFFF;
+    font-weight: 700;
+    color: black;
   }
 
   .about-button-container {
@@ -51,6 +51,10 @@
   .content {
     margin-top: 128px;
     margin-bottom: 128px;
+  }
+
+  .content h2 {
+    font-weight: 700;
   }
 
   .main {
@@ -100,13 +104,14 @@
 
   @media only screen and (max-width: 500px) {
     .top {
-      margin-top: 128px;
+      margin-top: 0px;
     }
     .top h1 {
       font-size: 36px;
     }
     .intro-p {
       font-size: 16px;
+      margin-top: 32px;
     }
     .content {
       margin-top: 128px;

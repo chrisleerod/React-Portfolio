@@ -4,13 +4,17 @@
 }
 
 body {
-  background-color: #0B0B0F;
+  background-color: #CDD5D7;
   font-family: "Inter", "system-ui";
   max-width: 1264px;
   padding-left: 32px;
   padding-right: 32px;
   margin: 0 auto;
-  color: #F2F2F2;
+  color: #0B0B0F;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 500px) {

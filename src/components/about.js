@@ -60,7 +60,7 @@ class about extends Component {
                             <motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
-                                    backgroundColor: "#2C2E37",
+                                    backgroundColor: "rgba(242, 242, 242, 0.6)",
                                     transition: { duration: 0.2 }
                                 }} className="link">
                                 <p>Email ↗︎</p>
@@ -70,7 +70,7 @@ class about extends Component {
                             <motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
-                                    backgroundColor: "#2C2E37",
+                                    backgroundColor: "rgba(242, 242, 242, 0.6)",
                                     transition: { duration: 0.2 }
                                 }} className="link">
                                 <p>LinkedIn ↗︎</p>
@@ -80,7 +80,7 @@ class about extends Component {
                             <motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
-                                    backgroundColor: "#2C2E37",
+                                    backgroundColor: "rgba(242, 242, 242, 0.6)",
                                     transition: { duration: 0.2 }
                                 }} className="link">
                                 <p>Calendly ↗︎</p>
