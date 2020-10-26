@@ -18,9 +18,10 @@
 
 .me-card-container {
     padding: 16px;
-    background-color: #1F2027;
+    background-color: #0B0B0F;
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 64px;
+    color: #F2F2F2;
 }
 
 .me-card {
@@ -59,7 +60,7 @@
 
 .title-text {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .here {
@@ -92,10 +93,11 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: 8px 16px;
+    padding: 8px;
+    line-height: 1;
     border-radius: 4px;
     background-color: #F2F2F2;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     color: #0B0B0F;
 }

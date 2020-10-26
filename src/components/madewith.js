@@ -17,11 +17,11 @@ export const Paragraphs = () => {
                             transition: { duration: 0.2 }
                         }}
                     >
-                        Figma ↗︎
-                </motion.a>
+                        <p>Figma ↗︎</p>
+                    </motion.a>
                     <div className="info">
-                        Where the design magic happens –– my favorite design tool!
-                </div>
+                        <p>Where the design magic happens –– my favorite design tool!</p>
+                    </div>
                 </div>
                 <div className="built-container">
                     <motion.a target="_blank" href="https://rsms.me/inter" className="built-link"
@@ -31,11 +31,11 @@ export const Paragraphs = () => {
                             transition: { duration: 0.2 }
                         }}
                     >
-                        Inter ↗︎
-                </motion.a>
+                        <p>Inter ↗︎</p>
+                    </motion.a>
                     <div className="info">
-                        A beautiful typeface designed by Rasmus Andersson. This has replaced Roboto as my go-to font.
-                </div>
+                        <p>A beautiful typeface designed by Rasmus Andersson. This has replaced Roboto as my go-to font.</p>
+                    </div>
                 </div>
                 <div className="built-container">
                     <motion.a target="_blank" href="https://reactjs.org" className="built-link"
@@ -45,11 +45,11 @@ export const Paragraphs = () => {
                             transition: { duration: 0.2 }
                         }}
                     >
-                        React.js ↗︎
-                </motion.a>
+                        <p>React.js ↗︎</p>
+                    </motion.a>
                     <div className="info">
-                        My favorite! Sorry to all the Angular and Vue people out there.
-                </div>
+                        <p>My favorite! Sorry to all the Angular and Vue people out there.</p>
+                    </div>
                 </div>
                 <div className="built-container">
                     <motion.a target="_blank" href="https://framer.com/motion" className="built-link"
@@ -59,11 +59,11 @@ export const Paragraphs = () => {
                             transition: { duration: 0.2 }
                         }}
                     >
-                        Framer Motion ↗︎
-                </motion.a>
+                        <p>Framer Motion ↗︎</p>
+                    </motion.a>
                     <div className="info">
-                        A motion library created for React to implement beautiful and powerful animations.
-                </div>
+                        <p>A motion library created for React to implement beautiful and powerful animations.</p>
+                    </div>
                 </div>
             </div>
         </div>

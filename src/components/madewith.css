@@ -5,7 +5,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
 }
 
 .built-title {
@@ -19,6 +19,7 @@
     padding: 8px;
     background-color: #F2F2F2;
     border-radius: 4px;
+    line-height: 1;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -35,7 +36,7 @@
 @media only screen and (min-width: 1000px) {
     .built-with {
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 32px;
+      grid-gap: 64px;
     }
   
     .thumb {

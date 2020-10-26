@@ -13,8 +13,8 @@ class footer extends Component {
                             <p>Thanks for scrolling!</p>
                         </div>
                         <div className="footer-thanks-text">
-                            <p>Please reach out if you want to learn more about myself,
-                            my projects, or just talk! </p>
+                            <p>Thanks for scrolling! Please reach out if you want to learn more about
+                                 myself, my projects, or just chat! </p>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ class footer extends Component {
                                     <li>About</li>
                                 </Link>
                                 <Link to="/process">
-                                    <li>Process</li>
+                                    <li>Contact</li>
                                 </Link>
                             </ul>
                         </div>
