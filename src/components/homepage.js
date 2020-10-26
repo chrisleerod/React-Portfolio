@@ -21,11 +21,13 @@ class homepage extends Component {
                                 <motion.h1
                                     initial={{
                                         y: 100,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 10
                                     }}
                                     animate={{
                                         y: 0,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 0
                                     }}
                                     transition={{
                                         delay: 0,
@@ -40,14 +42,16 @@ class homepage extends Component {
                                 <motion.h1
                                     initial={{
                                         y: 100,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 10
                                     }}
                                     animate={{
                                         y: 0,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0,
+                                        delay: 0.075,
                                         ease: [0.65, 0, 0.35, 1],
                                         duration: 1.2,
                                     }}
@@ -62,14 +66,16 @@ class homepage extends Component {
                                 <motion.h1
                                     initial={{
                                         y: 100,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 10
                                     }}
                                     animate={{
                                         y: 0,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0,
+                                        delay: 0.15,
                                         ease: [0.65, 0, 0.35, 1],
                                         duration: 1.2,
                                     }}
@@ -84,14 +90,16 @@ class homepage extends Component {
                                 <motion.h1
                                     initial={{
                                         y: 100,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 10
                                     }}
                                     animate={{
                                         y: 0,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0,
+                                        delay: 0.225,
                                         ease: [0.65, 0, 0.35, 1],
                                         duration: 1.2,
                                     }}
@@ -106,14 +114,16 @@ class homepage extends Component {
                                 <motion.h1
                                     initial={{
                                         y: 100,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 10
                                     }}
                                     animate={{
                                         y: 0,
-                                        opacity: 1
+                                        opacity: 1,
+                                        skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0,
+                                        delay: 0.3,
                                         ease: [0.65, 0, 0.35, 1],
                                         duration: 1.2,
                                     }}
