@@ -30,15 +30,23 @@ class footer extends Component {
                         <div className="footer-title"><p>Navigation</p></div>
                         <div className="footer-nav-container">
                             <ul className="footer-nav">
-                                <Link to="/">
-                                    <li>Work</li>
-                                </Link>
-                                <Link to="/about">
-                                    <li>About</li>
-                                </Link>
-                                <Link to="/process">
-                                    <li>Contact</li>
-                                </Link>
+
+                                <li>
+                                    <Link to="/">
+                                        Work
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/about">
+                                        About
+                                    </Link>
+                                </li>
+
+                                <li>
+                                    <Link to="/process">
+                                        Contact
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -61,7 +69,7 @@ class footer extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         );
     }
 }
