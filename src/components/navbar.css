@@ -6,7 +6,8 @@
     top: 64px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 128px);
+    max-width: 1264px;
+    width: calc(100% - 64px);
     font-size: 16px;
     z-index: 10;
   }
