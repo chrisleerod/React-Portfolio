@@ -30,9 +30,9 @@ class homepage extends Component {
                                         skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0,
-                                        ease: [0.65, 0, 0.35, 1],
-                                        duration: 1.2,
+                                        delay: 0.075,
+                                        ease: [.19,1,.22,1],
+                                        duration: 2,
                                     }}
                                 >
                                     Product{' '}
@@ -51,9 +51,9 @@ class homepage extends Component {
                                         skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0.075,
-                                        ease: [0.65, 0, 0.35, 1],
-                                        duration: 1.2,
+                                        delay: 0.15,
+                                        ease: [.19,1,.22,1],
+                                        duration: 2,
                                     }}
                                 // transition={{ duration: .6,
                                 // delay: 0.14
@@ -75,9 +75,9 @@ class homepage extends Component {
                                         skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0.15,
-                                        ease: [0.65, 0, 0.35, 1],
-                                        duration: 1.2,
+                                        delay: 0.225,
+                                        ease: [.19,1,.22,1],
+                                        duration: 2,
                                     }}
                                 // transition={{ duration: .6,
                                 // delay: 0.18
@@ -99,9 +99,9 @@ class homepage extends Component {
                                         skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0.225,
-                                        ease: [0.65, 0, 0.35, 1],
-                                        duration: 1.2,
+                                        delay: 0.3,
+                                        ease: [.19,1,.22,1],
+                                        duration: 2,
                                     }}
                                 // transition={{ duration: .6,
                                 // delay: 0.22
@@ -124,8 +124,8 @@ class homepage extends Component {
                                     }}
                                     transition={{
                                         delay: 0.3,
-                                        ease: [0.65, 0, 0.35, 1],
-                                        duration: 1.2,
+                                        ease: [.19,1,.22,1],
+                                        duration: 2,
                                     }}
                                 // transition={{ duration: .6,
                                 // delay: 0.26
@@ -135,7 +135,23 @@ class homepage extends Component {
                             </motion.h1>
                             </div>
                         </div>
-                        <p className="intro-p">
+                        <motion.p className="intro-p"
+                            initial={{
+                                y: 50,
+                                opacity: 0,
+                                skewY: 0
+                            }}
+                            animate={{
+                                y: 0,
+                                opacity: 1,
+                                skewY: 0
+                            }}
+                            transition={{
+                                delay: 0.525,
+                                ease: [.19,1,.22,1],
+                                duration: 2,
+                            }}
+                        >
                             Hi, I'm Chris –– a <span style={{ fontStyle: "italic", fontWeight: "600" }}>product designer</span>,
                         <span style={{ fontStyle: "italic", fontWeight: "600" }}> front-end engineer</span>,
                         and <span style={{ fontStyle: "italic", fontWeight: "600" }}>student</span> based in Nashville, TN.
@@ -143,13 +159,28 @@ class homepage extends Component {
                         <br></br>
                             <br></br>
                         Currently looking for 2021 new grad & internship opportunities.
-                    </p>
+                    </motion.p>
                         <Link className="about-button-container" to="/about">
                             <motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
                                     backgroundColor: "rgba(242, 242, 242, 0.6)",
                                     transition: { duration: 0.2 }
+                                }}
+                                initial={{
+                                    y: 50,
+                                    opacity: 0,
+                                    skewY: 0
+                                }}
+                                animate={{
+                                    y: 0,
+                                    opacity: 1,
+                                    skewY: 0
+                                }}
+                                transition={{
+                                    delay: 0.6,
+                                    ease: [.19,1,.22,1],
+                                    duration: 2,
                                 }}
                                 className="about-button">
                                 <p>Why I chose product design →</p>
