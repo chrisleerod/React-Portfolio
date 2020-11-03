@@ -1,12 +1,16 @@
+.paragraph {
+    margin-bottom: 16px;
+}
+
 .about-container {
-    max-width: 550px;
+    max-width: 725px;
     margin: 0 auto;
     margin-top: 152px;
     margin-bottom: 128px;
 }
 
 .me-pic {
-    max-width: 550px;
+    max-width: 725px;
     display: flex;
 }
 
@@ -20,7 +24,7 @@
     padding: 16px;
     background-color: #0B0B0F;
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
     color: #F2F2F2;
 }
 
@@ -55,7 +59,7 @@
 }
 
 .section {
-    margin-bottom: 32px;
+    margin-bottom: 48px;
 }
 
 .title-text {
@@ -101,3 +105,10 @@
     font-weight: 700;
     color: #0B0B0F;
 }
+
+@media only screen and (max-width: 500px) {
+    .about-container {
+        margin-top: 0px;
+        margin-bottom: 64px;
+    }
+  }

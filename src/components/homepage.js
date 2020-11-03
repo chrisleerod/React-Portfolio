@@ -22,7 +22,7 @@ class homepage extends Component {
                                     initial={{
                                         y: 100,
                                         opacity: 1,
-                                        skewY: 10
+                                        skewY: 0
                                     }}
                                     animate={{
                                         y: 0,
@@ -30,7 +30,7 @@ class homepage extends Component {
                                         skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0.075,
+                                        delay: 0.1,
                                         ease: [.19,1,.22,1],
                                         duration: 2,
                                     }}
@@ -43,7 +43,7 @@ class homepage extends Component {
                                     initial={{
                                         y: 100,
                                         opacity: 1,
-                                        skewY: 10
+                                        skewY: 0
                                     }}
                                     animate={{
                                         y: 0,
@@ -51,7 +51,7 @@ class homepage extends Component {
                                         skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0.15,
+                                        delay: 0.2,
                                         ease: [.19,1,.22,1],
                                         duration: 2,
                                     }}
@@ -67,7 +67,7 @@ class homepage extends Component {
                                     initial={{
                                         y: 100,
                                         opacity: 1,
-                                        skewY: 10
+                                        skewY: 0
                                     }}
                                     animate={{
                                         y: 0,
@@ -75,7 +75,7 @@ class homepage extends Component {
                                         skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0.225,
+                                        delay: 0.3,
                                         ease: [.19,1,.22,1],
                                         duration: 2,
                                     }}
@@ -91,7 +91,7 @@ class homepage extends Component {
                                     initial={{
                                         y: 100,
                                         opacity: 1,
-                                        skewY: 10
+                                        skewY: 0
                                     }}
                                     animate={{
                                         y: 0,
@@ -99,7 +99,7 @@ class homepage extends Component {
                                         skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0.3,
+                                        delay: 0.4,
                                         ease: [.19,1,.22,1],
                                         duration: 2,
                                     }}
@@ -115,7 +115,7 @@ class homepage extends Component {
                                     initial={{
                                         y: 100,
                                         opacity: 1,
-                                        skewY: 10
+                                        skewY: 0
                                     }}
                                     animate={{
                                         y: 0,
@@ -123,7 +123,7 @@ class homepage extends Component {
                                         skewY: 0
                                     }}
                                     transition={{
-                                        delay: 0.3,
+                                        delay: 0.5,
                                         ease: [.19,1,.22,1],
                                         duration: 2,
                                     }}
@@ -147,7 +147,7 @@ class homepage extends Component {
                                 skewY: 0
                             }}
                             transition={{
-                                delay: 0.525,
+                                delay: 0.8,
                                 ease: [.19,1,.22,1],
                                 duration: 2,
                             }}
@@ -178,7 +178,7 @@ class homepage extends Component {
                                     skewY: 0
                                 }}
                                 transition={{
-                                    delay: 0.6,
+                                    delay: 0.9,
                                     ease: [.19,1,.22,1],
                                     duration: 2,
                                 }}

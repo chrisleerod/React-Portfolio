@@ -30,28 +30,34 @@ class about extends Component {
                 </div>
                 <div className="section">
                     <div className="title-text">About me</div>
-                    <div className="body-text"><p>I’m Chris — a WCAG using product designer, developer, and
-                    student attending Belmont University in Nashville, TN graduating May 2021. I started my
-                    academic career as a Pre-Med student, but fast-forward a couple of years, and I found
-                    my love for Computer Science and design.
-                    <br></br>
-                        <br></br>
-                    I find joy working on complex design problems, coding, exercising, playing sports,
-                    and hanging with friends and family.
-                    <br></br>
-                        <br></br>
-                    I started my freelance design company back in February 2018. I have worked with
-                    sneaker software companies that help their users purchase limited releases (think Supreme, Yeezy,
-                    Jordans, etc.) to create marketing animations, web/product design projects, and other cool
-                    stuff. One of my marketing animations has over 180,000,000 interactions on Twitter. Check that business out <a className="here" href="https://twitter.com/imagecrate" target="_blank">here →</a>.
-                    </p>
+                    <div className="body-text">
+                        <p className="paragraph">
+                            I’m Chris — a WCAG using product designer, developer, and
+                            student attending Belmont University in Nashville, TN graduating May 2021. I started my
+                            academic career as a Pre-Med student, but fast-forward a couple of years, and I found
+                            my love for Computer Science and design.
+                        </p>
+                        <p className="paragraph">
+                            I find joy working on complex design problems, coding, exercising, playing sports,
+                            and hanging with friends and family.
+                        </p>
+                        <p className="paragraph">
+                            I started my freelance design company back in February 2018. I have worked with
+                            sneaker software companies that help their users purchase limited releases (think Supreme, Yeezy,
+                            Jordans, etc.) to create marketing animations, web/product design projects, and other cool
+                            stuff. One of my marketing animations has over 180,000,000 interactions on Twitter. Check that business out <a className="here" href="https://twitter.com/imagecrate" target="_blank">here →</a>.
+                        </p>
                     </div>
                 </div>
                 <div className="section">
                     <div className="title-text">Why product design?</div>
-                    <div className="body-text">Technology is ever-evolving, and never stagnant. It’s better than it
-                    was yesterday, but will always have room for improvement. New features, frameworks,
-                    libraries, and products come out everyday. Long story short, I love learning.</div>
+                    <div className="body-text">
+                        <p className="paragraph">
+                            Technology is ever-evolving, and never stagnant. It’s better than it
+                            was yesterday, but will always have room for improvement. New features, frameworks,
+                            libraries, and products come out everyday. Long story short, I love learning.
+                        </p>
+                    </div>
                 </div>
                 <div className="section">
                     <div className="title-text">Get in touch</div>
