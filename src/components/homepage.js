@@ -31,7 +31,7 @@ class homepage extends Component {
                                     }}
                                     transition={{
                                         delay: 0.1,
-                                        ease: [.19,1,.22,1],
+                                        ease: [.19, 1, .22, 1],
                                         duration: 2,
                                     }}
                                 >
@@ -52,7 +52,7 @@ class homepage extends Component {
                                     }}
                                     transition={{
                                         delay: 0.2,
-                                        ease: [.19,1,.22,1],
+                                        ease: [.19, 1, .22, 1],
                                         duration: 2,
                                     }}
                                 // transition={{ duration: .6,
@@ -76,7 +76,7 @@ class homepage extends Component {
                                     }}
                                     transition={{
                                         delay: 0.3,
-                                        ease: [.19,1,.22,1],
+                                        ease: [.19, 1, .22, 1],
                                         duration: 2,
                                     }}
                                 // transition={{ duration: .6,
@@ -100,7 +100,7 @@ class homepage extends Component {
                                     }}
                                     transition={{
                                         delay: 0.4,
-                                        ease: [.19,1,.22,1],
+                                        ease: [.19, 1, .22, 1],
                                         duration: 2,
                                     }}
                                 // transition={{ duration: .6,
@@ -124,7 +124,7 @@ class homepage extends Component {
                                     }}
                                     transition={{
                                         delay: 0.5,
-                                        ease: [.19,1,.22,1],
+                                        ease: [.19, 1, .22, 1],
                                         duration: 2,
                                     }}
                                 // transition={{ duration: .6,
@@ -148,7 +148,7 @@ class homepage extends Component {
                             }}
                             transition={{
                                 delay: 0.8,
-                                ease: [.19,1,.22,1],
+                                ease: [.19, 1, .22, 1],
                                 duration: 2,
                             }}
                         >
@@ -162,11 +162,6 @@ class homepage extends Component {
                     </motion.p>
                         <Link className="about-button-container" to="/about">
                             <motion.div
-                                whileTap={{ scale: 0.97, }}
-                                whileHover={{
-                                    backgroundColor: "rgba(242, 242, 242, 0.6)",
-                                    transition: { duration: 0.2 }
-                                }}
                                 initial={{
                                     y: 50,
                                     opacity: 0,
@@ -175,15 +170,22 @@ class homepage extends Component {
                                 animate={{
                                     y: 0,
                                     opacity: 1,
-                                    skewY: 0
                                 }}
                                 transition={{
                                     delay: 0.9,
-                                    ease: [.19,1,.22,1],
+                                    ease: [.19, 1, .22, 1],
                                     duration: 2,
                                 }}
-                                className="about-button">
-                                <p>Why I chose product design →</p>
+                                className="button-container">
+                                <motion.div
+                                    whileTap={{ scale: 0.97, }}
+                                    whileHover={{
+                                        backgroundColor: "rgba(242, 242, 242, 0.6)",
+                                        transition: { duration: 0.2 }
+                                    }}
+                                    className="about-button">
+                                    <p>Why I chose product design →</p>
+                                </motion.div>
                             </motion.div>
                         </Link>
                     </div>
