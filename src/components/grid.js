@@ -1,12 +1,13 @@
 import React from "react";
-import'./grid.css';
+import './grid.css';
+import { motion } from "framer-motion";
 
 import { Card } from './card';
 
 const cards = [
   {
     link: '/pd',
-    color: '#0B0B0F',
+    color: '#191E21',
     title: 'Project Destroyer',
     tags: ['Product Design', 'Front-End'],
     image: 'https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/pd.jpg',
@@ -15,7 +16,7 @@ const cards = [
   },
   {
     link: '/google',
-    color: '#0B0B0F',
+    color: '#191E21',
     title: 'Google UX Challenge',
     tags: ['Product Design'],
     image: 'https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/google-product.png',
@@ -24,7 +25,7 @@ const cards = [
   },
   {
     link: '/imagecrate',
-    color: '#0B0B0F',
+    color: '#191E21',
     title: 'imagecrate',
     tags: ['Freelance'],
     image: '',
@@ -37,7 +38,7 @@ export const Grid = () => {
   return (
     <div className="container">
       {cards.map((card, i) => (
-        <Card card={card} index={i}/>
+        <Card card={card} index={i} />
       ))}
     </div>
   )

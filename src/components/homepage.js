@@ -190,10 +190,26 @@ class homepage extends Component {
                         </Link>
                     </div>
                 </div>
-                <div className="content">
+                <motion.div className="content"
+                    initial={{
+                        y: 100,
+                        opacity: 0,
+                        skewY: 0
+                    }}
+                    animate={{
+                        y: 0,
+                        opacity: 1,
+                        skewY: 0
+                    }}
+                    transition={{
+                        delay: 1,
+                        ease: [.19, 1, .22, 1],
+                        duration: 2,
+                    }}
+                >
                     <h2>Selected Work</h2>
                     <Grid />
-                </div>
+                </motion.div>
                 <div className="built">
                     <Paragraphs />
                 </div>
