@@ -17,9 +17,9 @@ class about extends Component {
                             <img src="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/memoji.png" alt="" />
                         </div>
                         <div className="text">
-                            <div className="name">
+                            <h4 className="name">
                                 Chris Rodriguez
-                            </div>
+                            </h4>
                             <div className="info">
                                 <p>
                                     Designer, developer, and student
@@ -29,7 +29,7 @@ class about extends Component {
                     </div>
                 </div>
                 <div className="section">
-                    <div className="title-text">About me</div>
+                    <h4 className="title-text">About me</h4>
                     <div className="body-text">
                         <p className="paragraph">
                             I’m Chris — a WCAG using product designer, developer, and
@@ -45,12 +45,19 @@ class about extends Component {
                             I started my freelance design company back in February 2018. I have worked with
                             sneaker software companies that help their users purchase limited releases (think Supreme, Yeezy,
                             Jordans, etc.) to create marketing animations, web/product design projects, and other cool
-                            stuff. One of my marketing animations has over 180,000,000 interactions on Twitter. Check that business out <a className="here" href="https://twitter.com/imagecrate" target="_blank">here →</a>.
+                            stuff. One of my marketing animations has over 180,000,000 interactions on Twitter. Check that business out <a className="here" href="https://twitter.com/imagecrate" target="_blank"><motion.div
+                                whileTap={{ scale: 0.97, }}
+                                whileHover={{
+                                    color: "#ced2fa",
+                                    transition: { duration: 0.2 }
+                                }} className="link">here →
+                                </motion.div>
+                                </a>.
                         </p>
                     </div>
                 </div>
                 <div className="section">
-                    <div className="title-text">Why product design?</div>
+                    <h4 className="title-text">Why product design?</h4>
                     <div className="body-text">
                         <p className="paragraph">
                             Technology is ever-evolving, and never stagnant. It’s better than it
@@ -60,13 +67,13 @@ class about extends Component {
                     </div>
                 </div>
                 <div className="section">
-                    <div className="title-text">Get in touch</div>
+                    <h4 className="title-text">Get in touch</h4>
                     <div className="link-container">
                         <a href="mailto:chrisleerod@gmail.com">
                             <motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
-                                    backgroundColor: "rgba(242, 242, 242, 0.6)",
+                                    color: "#ced2fa",
                                     transition: { duration: 0.2 }
                                 }} className="link">
                                 <p>Email ↗︎</p>
@@ -76,7 +83,7 @@ class about extends Component {
                             <motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
-                                    backgroundColor: "rgba(242, 242, 242, 0.6)",
+                                    color: "#ced2fa",
                                     transition: { duration: 0.2 }
                                 }} className="link">
                                 <p>LinkedIn ↗︎</p>
@@ -86,7 +93,7 @@ class about extends Component {
                             <motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
-                                    backgroundColor: "rgba(242, 242, 242, 0.6)",
+                                    color: "#ced2fa",
                                     transition: { duration: 0.2 }
                                 }} className="link">
                                 <p>Calendly ↗︎</p>

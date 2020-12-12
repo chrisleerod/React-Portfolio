@@ -180,7 +180,7 @@ class homepage extends Component {
                                 <motion.div
                                     whileTap={{ scale: 0.97, }}
                                     whileHover={{
-                                        backgroundColor: "rgba(242, 242, 242, 0.6)",
+                                        color: "#ced2fa",
                                         transition: { duration: 0.2 }
                                     }}
                                     className="about-button">
@@ -207,7 +207,7 @@ class homepage extends Component {
                         duration: 2,
                     }}
                 >
-                    <h2>Selected Work</h2>
+                    <h4>Selected Work</h4>
                     <Grid />
                 </motion.div>
                 <div className="built">

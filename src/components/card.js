@@ -17,7 +17,7 @@ export const Card = ({ index, card }) => {
       <div className="text-container">
         <div className="text-index">
           <div className="row">
-            <h1 className="title">{title}</h1>
+            <h5 className="title">{title}</h5>
           </div>
           <div className={"tags"}>
             {tags.map((tag) => <Tag tag={tag} />)}

@@ -9,22 +9,20 @@
 }
 
 .built-title {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 32px;
 }
 
 .built-link {
     display: inline-flex;
-    padding: 8px;
-    background-color: #F2F2F2;
     border-radius: 4px;
     line-height: 1;
-    font-size: 14px;
-    font-weight: 700;
-    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
     text-decoration: none;
-    color: #0B0B0F;
+    color: #828fff;
 }
 
 @media only screen and (min-width: 500px) {

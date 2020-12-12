@@ -5,15 +5,15 @@ import './madewith.css';
 export const Paragraphs = () => {
     return (
         <div className="built-wrapper">
-            <div className="built-title">
+            <h4 className="built-title">
                 Built with
-            </div>
+            </h4>
             <div className="built-with">
                 <div className="built-container">
                     <motion.a target="_blank" href="https://figma.com" className="built-link"
                         whileTap={{ scale: 0.97, }}
                         whileHover={{
-                            backgroundColor: "rgba(242, 242, 242, 0.6)",
+                            color: "#ced2fa",
                             transition: { duration: 0.2 }
                         }}
                     >
@@ -27,7 +27,7 @@ export const Paragraphs = () => {
                     <motion.a target="_blank" href="https://rsms.me/inter" className="built-link"
                         whileTap={{ scale: 0.97, }}
                         whileHover={{
-                            backgroundColor: "rgba(242, 242, 242, 0.6)",
+                            color: "#ced2fa",
                             transition: { duration: 0.2 }
                         }}
                     >
@@ -41,7 +41,7 @@ export const Paragraphs = () => {
                     <motion.a target="_blank" href="https://reactjs.org" className="built-link"
                         whileTap={{ scale: 0.97, }}
                         whileHover={{
-                            backgroundColor: "rgba(242, 242, 242, 0.6)",
+                            color: "#ced2fa",
                             transition: { duration: 0.2 }
                         }}
                     >
@@ -55,7 +55,7 @@ export const Paragraphs = () => {
                     <motion.a target="_blank" href="https://framer.com/motion" className="built-link"
                         whileTap={{ scale: 0.97, }}
                         whileHover={{
-                            backgroundColor: "rgba(242, 242, 242, 0.6)",
+                            color: "#ced2fa",
                             transition: { duration: 0.2 }
                         }}
                     >

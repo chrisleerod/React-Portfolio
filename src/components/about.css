@@ -17,13 +17,13 @@
 .me-pic img {
     width: 100%;
     margin-right: 32px;
-    border-radius: 4px 4px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .me-card-container {
     padding: 16px;
     background-color: #191E21;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 8px 8px;
     margin-bottom: 48px;
     color: #F2F2F2;
 }
@@ -49,7 +49,6 @@
 }
 
 .name {
-    font-size: 24px;
     font-weight: bold;
     margin-bottom: 8px;
 }
@@ -63,7 +62,6 @@
 }
 
 .title-text {
-    font-size: 24px;
     font-weight: 700;
 }
 
@@ -71,10 +69,11 @@
     font-weight: 600;
     opacity: 1;
     transition: .2s;
+    color: #828fff;
 }
 
 .here:hover {
-    opacity: 0.4;
+    color: #ced2fa
 }
 
 .body-text {
@@ -97,13 +96,10 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: 8px;
     line-height: 1;
-    border-radius: 4px;
-    background-color: #F2F2F2;
-    font-size: 14px;
-    font-weight: 700;
-    color: #0B0B0F;
+    font-size: 16px;
+    font-weight: 600;
+    color: #828fff;
 }
 
 @media only screen and (max-width: 500px) {

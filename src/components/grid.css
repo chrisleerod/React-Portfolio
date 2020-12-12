@@ -50,7 +50,7 @@
 }
 
 .card-item {
-  border-radius: 4px;
+  border-radius: 8px;
   min-height: 500px;
   display: flex;
   position: relative;
@@ -70,7 +70,7 @@
 }
 
 .title {
-  font-size: 18px;
+  font-size:20px;
   font-weight: 600;
   color: #f2f2f2;
 }
