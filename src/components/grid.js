@@ -12,7 +12,7 @@ const cards = [
     tags: ['Product Design', 'Front-End'],
     image: 'https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/pd.jpg',
     date: 'Ongoing',
-    action: 'View case study'
+    action: 'View case study →'
   },
   {
     link: '/google',
@@ -21,7 +21,7 @@ const cards = [
     tags: ['Product Design'],
     image: 'https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/google-product.png',
     date: 'Feb 2020',
-    action: 'View case study'
+    action: 'View case study →'
   },
   {
     link: '/imagecrate',
@@ -30,7 +30,7 @@ const cards = [
     tags: ['Freelance'],
     image: '',
     date: 'Feb 2018 - Present',
-    action: 'View business'
+    action: 'View business →'
   },
 ]
 

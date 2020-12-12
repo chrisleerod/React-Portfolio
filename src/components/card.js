@@ -26,7 +26,6 @@ export const Card = ({ index, card }) => {
             <p className="date">{date}</p>
             <a href={link} className="action-link">
               <p className="action">{action}</p>
-              <RightArrow className="arrow" />
             </a>
           </div>
         </div>
