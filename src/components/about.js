@@ -6,9 +6,6 @@ class about extends Component {
     render() {
         return (
             <div className="about-container">
-                <div className="me-pic">
-                    <img src="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/purple.jpg" alt="" />
-                </div>
                 <div className="me-card-container">
                     <div className="me-card">
                         <div className="picture">
@@ -50,7 +47,7 @@ class about extends Component {
                                     transition: { duration: 0.2 }
                                 }} className="link">here →
                                 </motion.div>
-                                </a>.
+                            </a>.
                         </p>
                     </div>
                 </div>
@@ -98,6 +95,9 @@ class about extends Component {
                             </motion.div>
                         </a>
                     </div>
+                </div>
+                <div className="me-pic">
+                    <img src="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/purple.jpg" alt="" />
                 </div>
             </div>
         );

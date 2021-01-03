@@ -1,6 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+*::selection {
+  background: rgb(130, 143, 255, .25);
 }
 
 h1 {
