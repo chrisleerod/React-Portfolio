@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import './about.css';
 import { motion } from "framer-motion";
 
-const transition = { duration: 0.6, ease: [0.43, 0.13, 0.23, 0.96] };
-
 class about extends Component {
     render() {
         return (
@@ -45,7 +43,7 @@ class about extends Component {
                             I started my freelance design company back in February 2018. I have worked with
                             sneaker software companies that help their users purchase limited releases (think Supreme, Yeezy,
                             Jordans, etc.) to create marketing animations, web/product design projects, and other cool
-                            stuff. One of my marketing animations has over 180,000,000 interactions on Twitter. Check that business out <a className="here" href="https://twitter.com/imagecrate" target="_blank"><motion.div
+                            stuff. One of my marketing animations has over 180,000,000 interactions on Twitter. Check that business out <a className="here" href="https://twitter.com/imagecrate" target="_blank" rel="noopener noreferrer"><motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
                                     color: "#ced2fa",
@@ -79,7 +77,7 @@ class about extends Component {
                                 <p>Email ↗︎</p>
                             </motion.div>
                         </a>
-                        <a target="_blank" href="https://linkedin.com/in/chrisleerod">
+                        <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod">
                             <motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
@@ -89,7 +87,7 @@ class about extends Component {
                                 <p>LinkedIn ↗︎</p>
                             </motion.div>
                         </a>
-                        <a target="_blank" href="https://calendly.com/chrisleerod">
+                        <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/chrisleerod">
                             <motion.div
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{

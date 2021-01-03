@@ -1,8 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-import { ReactComponent as ShareIcon } from '../icons/share.svg';
-import { ReactComponent as RightArrow } from '../icons/arrow-right-white.svg';
 
 import './card.css';
 

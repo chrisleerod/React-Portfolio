@@ -1,6 +1,5 @@
 import React from "react";
 import './grid.css';
-import { motion } from "framer-motion";
 
 import { Card } from './card';
 

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import './footer.css';
 import { Link } from 'react-router-dom';
-import ArrowRight from '../icons/arrow-right.svg';
 
 class footer extends Component {
     render() {
@@ -56,13 +55,13 @@ class footer extends Component {
                         </div>
                         <div className="footer-links-container">
                             <ul className="footer-links">
-                                <a target="_blank" href="https://github.com/chrisleerod">
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/chrisleerod">
                                     <li>GitHub ↗︎</li>
                                 </a>
-                                <a target="_blank" href="https://linkedin.com/in/chrisleerod">
+                                <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod">
                                     <li>LinkedIn ↗︎</li>
                                 </a>
-                                <a target="_blank" href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view">
+                                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view">
                                     <li>Resume ↗︎</li>
                                 </a>
                             </ul>
