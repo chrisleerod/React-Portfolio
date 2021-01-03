@@ -5,7 +5,7 @@
 .about-container {
     max-width: 720px;
     margin: 0 auto;
-    margin-top: 148px;
+    margin-top: 128px;
     margin-bottom: 128px;
 }
 
@@ -17,14 +17,14 @@
     width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-top: 80px;
+    margin-top: 16px;
 }
 
 .me-card-container {
     padding: 16px;
     background-color: #191E21;
     border-radius: 8px;
-    margin-bottom: 128px;
+    margin-bottom: 64px;
     color: #F2F2F2;
 }
 
