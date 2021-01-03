@@ -60,6 +60,8 @@
 .body-text {
     max-width: 640px;
     margin: 0 auto;
+    font-size: 20px;
+    color: rgba(242, 242, 242, .63);
 }
 
 .section {
@@ -69,6 +71,7 @@
 
 .title-text {
     font-weight: 700;
+    color: #F2F2F2;
 }
 
 .here {
@@ -103,7 +106,7 @@
     display: flex;
     align-items: center;
     line-height: 1;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color: #828fff;
 }
