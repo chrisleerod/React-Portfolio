@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import Navbar from "./components/navbar.js";
-import Footer from "./components/footer.js";
-import Homepage from "./components/homepage";
-import About from "./components/about.js";
+import Navbar from "./components/navbar/navbar.js";
+import Footer from "./components/footer/footer.js";
+import Homepage from "./components/homepage/homepage";
+import About from "./components/about/about.js";
 import Process from "./components/process.js";
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
