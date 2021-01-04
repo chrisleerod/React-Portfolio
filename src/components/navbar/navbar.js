@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { motion, useCycle } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { isMobile } from 'react-device-detect';
@@ -21,7 +21,7 @@ const background = {
     closed: {
       height: '72px',
       transition: {
-        delay: 0.5,
+        delay: 0.3,
         type: "spring",
         stiffness: 200,
         damping: 40
@@ -29,8 +29,16 @@ const background = {
     }
   };
 
+const useStyles = (open) => {
+    document.body.classList = open ? 'overflow-hidden' : '';
+}
+
 export default function () {
     const [isOpen, toggleOpen] = useCycle(false, true);
+
+    useStyles(isOpen);
+
+    const handleToggle = useCallback(() => toggleOpen(), [toggleOpen]);
 
     if (isMobile) {
         return (
@@ -42,9 +50,9 @@ export default function () {
                     >
                         <motion.div variants={background} className="nav-flex-container">
                             <Link className="mobile-logo" to="/">Chris Rodriguez</Link>
-                            <MenuToggle toggle={() => toggleOpen()} />
+                            <MenuToggle toggle={handleToggle} />
                         </motion.div>
-                        <Navigation />
+                        <Navigation toggle={handleToggle} />
                     </motion.nav>
             </header>
         );

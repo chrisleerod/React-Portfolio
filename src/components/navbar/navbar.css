@@ -126,9 +126,25 @@ header a {
   font-size: 16px;
 }
 
+.menu-items-hidden {
+  display: none;
+  position: absolute;
+  top: 71px;
+  list-style: none;
+  width: calc(100vw - 48px);
+  left: 0px;
+  padding: 0 24px 24px 24px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
 .menu-item {
   border-bottom: 1px solid rgba(242, 242, 242, 0.2);
   padding: 16px 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .mobile-nav {
@@ -141,4 +157,20 @@ header a {
 .mobile-logo {
   font-weight: 700;
   font-size: 16px;
+}
+
+.menu-item-description {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.menu-item-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item-external {
+  color: #828FFF;
+
 }

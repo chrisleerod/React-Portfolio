@@ -4,9 +4,11 @@ import { MenuItem } from "./menuItem";
 
 const variants = {
   open: {
+    pointerEvents: 'unset',
     transition: { staggerChildren: 0.07, delayChildren: 0.2 }
   },
   closed: {
+    pointerEvents: 'none',
     transition: { staggerChildren: 0.05, staggerDirection: -1 }
   }
 };
@@ -44,10 +46,10 @@ const menuItems = [
   }
 ]
 
-export const Navigation = () => (
+export const Navigation = ({ toggle }) => (
   <motion.ul className="menu-items" variants={variants}>
     {menuItems.map(item => (
-      <MenuItem item={item} key={item.label} />
+      <MenuItem toggle={toggle} item={item} key={item.label} />
     ))}
   </motion.ul>
 );

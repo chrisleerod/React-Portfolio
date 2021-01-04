@@ -1,6 +1,9 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 
+import Link from './link';
+import './navbar.css';
+
 const variants = {
   open: {
     y: 0,
@@ -18,18 +21,28 @@ const variants = {
   }
 };
 
-export const MenuItem = ({ item }) => {
-  const { label } = item;
+export const MenuItem = ({ item, toggle }) => {
+  const { label, description, target, href } = item;
+
+  const handleClick = () => {
+    if (target === '_self') {
+      return toggle();
+    }
+  }
 
   return (
-    <motion.li
-      className="menu-item"
-      variants={variants}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.95 }}
-    >
-      <div className="icon-placeholder">{label}</div>
-      <div className="text-placeholder"/>
-    </motion.li>
+      <motion.li
+        className="menu-item"
+        variants={variants}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+      >
+        <Link to={href} onClick={handleClick} target={target} className="menu-item-link">
+          <div className={target === '_self' ? 'menu-item-label' : 'menu-item-label menu-item-external'}>{label}</div>
+          <div target={target} className="menu-item-description">
+            {description}
+          </div>
+        </Link>
+      </motion.li>
   );
 };
