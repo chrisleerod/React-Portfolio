@@ -17,7 +17,7 @@ export const Paragraphs = () => {
                             transition: { duration: 0.2 }
                         }}
                     >
-                        <p>Figma ↗︎</p>
+                        <p>Figma ↗</p>
                     </motion.a>
                     <div className="info">
                         <p>Where the design magic happens –– my favorite design tool!</p>
@@ -31,7 +31,7 @@ export const Paragraphs = () => {
                             transition: { duration: 0.2 }
                         }}
                     >
-                        <p>Inter ↗︎</p>
+                        <p>Inter ↗</p>
                     </motion.a>
                     <div className="info">
                         <p>A beautiful typeface designed by Rasmus Andersson. This has replaced Roboto as my go-to font.</p>
@@ -45,7 +45,7 @@ export const Paragraphs = () => {
                             transition: { duration: 0.2 }
                         }}
                     >
-                        <p>React.js ↗︎</p>
+                        <p>React.js ↗</p>
                     </motion.a>
                     <div className="info">
                         <p>My favorite! Sorry to all the Angular and Vue people out there.</p>
@@ -59,7 +59,7 @@ export const Paragraphs = () => {
                             transition: { duration: 0.2 }
                         }}
                     >
-                        <p>Framer Motion ↗︎</p>
+                        <p>Framer Motion ↗</p>
                     </motion.a>
                     <div className="info">
                         <p>A motion library created for React to implement beautiful and powerful animations.</p>
