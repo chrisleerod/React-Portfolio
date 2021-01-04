@@ -18,13 +18,8 @@ const variants = {
   }
 };
 
-const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
-
-
-
 export const MenuItem = ({ item }) => {
-  const { label, description, target, href } = item;
-  console.log(label, description, target, href);
+  const { labelf } = item;
 
   return (
     <motion.li

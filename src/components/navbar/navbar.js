@@ -1,16 +1,13 @@
-import React, { Component, useRef } from "react";
+import React from "react";
 import { motion, useCycle } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { isMobile } from 'react-device-detect';
-
-import { useDimensions } from '../../hooks/useDimentions';
 
 import { MenuToggle } from './menutoggle';
 
 import { Navigation } from "./navigation";
 
 import './navbar.css';
-import './mobile.css';
 
 const background = {
     open: {
