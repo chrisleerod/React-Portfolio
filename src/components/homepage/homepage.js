@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import './homepage.css';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
+
+
 import { Grid } from '../grid/grid';
 import { Paragraphs } from '../madewith/madewith';
+
+import './homepage.css';
 
 class homepage extends Component {
     render() {

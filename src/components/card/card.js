@@ -6,7 +6,6 @@ import './card.css';
 export const Tag = ({ tag }) => <div className="tag">{tag}</div>;
 
 export const Card = ({ index, card }) => {
-  console.log(card);
   const { title, color, tags, link, image, date, action } = card;
 
   return (

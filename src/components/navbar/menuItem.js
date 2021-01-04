@@ -37,7 +37,7 @@ export const MenuItem = ({ item, toggle }) => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
       >
-        <Link to={href} onClick={handleClick} target={target} className="menu-item-link">
+        <Link rel="noopener" to={href} onClick={handleClick} target={target} className="menu-item-link">
           <div className={target === '_self' ? 'menu-item-label' : 'menu-item-label menu-item-external'}>{label}</div>
           <div target={target} className="menu-item-description">
             {description}
