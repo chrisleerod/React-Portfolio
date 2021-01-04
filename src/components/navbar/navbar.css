@@ -159,6 +159,14 @@ header a {
   font-size: 16px;
 }
 
+.menu-item-active {
+  pointer-events: none;
+}
+
+.menu-item-active > * {
+  color: rgba(242, 242, 242, 0.4) !important;
+}
+
 .menu-item-description {
   margin-top: 8px;
   font-size: 14px;
@@ -172,5 +180,4 @@ header a {
 
 .menu-item-external {
   color: #828FFF;
-
 }

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useLocation } from 'react-router-dom';
 import { motion } from "framer-motion";
 
 import Link from './link';
@@ -21,7 +22,11 @@ const variants = {
   }
 };
 
+const isActive = (path, pathname) => path === pathname;
+
 export const MenuItem = ({ item, toggle }) => {
+  const { pathname } = useLocation();
+
   const { label, description, target, href } = item;
 
   const handleClick = () => {
@@ -30,9 +35,12 @@ export const MenuItem = ({ item, toggle }) => {
     }
   }
 
+  // style based on this
+  const active = isActive(href, pathname);
+
   return (
       <motion.li
-        className="menu-item"
+        className={active ? "menu-item menu-item-active" : "menu-item"}
         variants={variants}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
