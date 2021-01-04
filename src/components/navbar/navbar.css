@@ -1,6 +1,6 @@
 header {
   position: fixed;
-  top: -1px;
+  top: 0px;
   left: 0px;
   right: 0px;
   z-index: 4;
@@ -8,6 +8,8 @@ header {
   display: flex;
   align-items: center;
 }
+
+/* Desktop CSS */
 
 .nav {
   display: flex;
@@ -88,14 +90,55 @@ header a {
   opacity: 0.4;
 }
 
-@media only screen and (max-width: 1400px) {
-  .nav {
-    width: calc(100% - 64px);
-  }
+/* Mobile CSS */
+
+.nav-flex-container {
+  transform-origin: top;
+  display: flex;
+  padding: 0 24px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 0px;
+  backdrop-filter: saturate(100%) blur(20px);
+  background-color: rgba(18, 22, 25, 0.6);
+  transform-origin: top center;
 }
 
-@media only screen and (max-width: 500px) {
-  .nav {
-    margin-top: 16px;
-  }
+.menu-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item:nth-child(1) {
+  border-top: 1px solid rgba(242, 242, 242, 0.2);
+}
+
+.menu-items {
+  position: absolute;
+  top: 71px;
+  list-style: none;
+  width: calc(100vw - 48px);
+  left: 0px;
+  padding: 0 24px 24px 24px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.menu-item {
+  border-bottom: 1px solid rgba(242, 242, 242, 0.2);
+  padding: 16px 0;
+}
+
+.mobile-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-logo {
+  font-weight: 700;
+  font-size: 16px;
 }

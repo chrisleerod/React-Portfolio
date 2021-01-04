@@ -34,7 +34,7 @@ class about extends Component {
                                 my love for Computer Science and design.
                         </p>
                             <p className="paragraph">
-                                I find joy working on complex design problems, coding, exercising, playing sports,
+                                I find joy working on complex design problems, coding, exercising, playing sports and video games,
                                 and hanging with friends and family.
                         </p>
                             <p className="paragraph">
