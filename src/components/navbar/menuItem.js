@@ -19,7 +19,7 @@ const variants = {
 };
 
 export const MenuItem = ({ item }) => {
-  const { labelf } = item;
+  const { label } = item;
 
   return (
     <motion.li
