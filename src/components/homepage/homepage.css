@@ -97,7 +97,7 @@
 
   @media only screen and (max-width: 500px) {
     .top {
-      margin-top: 0px;
+      margin-top: 64px;
     }
     .top h1 {
       font-size: 36px;
