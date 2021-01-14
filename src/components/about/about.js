@@ -73,12 +73,13 @@ class about extends Component {
                                 I started my freelance design company back in February 2018. I have worked with
                                 sneaker software companies that help their users purchase limited releases (think Supreme, Yeezy,
                                 Jordans, etc.) to create marketing animations, web/product design projects, and other cool
-                            stuff. One of my marketing animations has over 180,000,000 interactions on Twitter. Check that business out <a className="here" href="https://twitter.com/imagecrate" target="_blank" rel="noopener noreferrer"><motion.div
-                                    whileTap={{ scale: 0.97, }}
-                                    whileHover={{
-                                        color: "#ced2fa",
-                                        transition: { duration: 0.2 }
-                                    }} className="link">here →
+                                stuff. One of my marketing animations has over 180,000,000 interactions on Twitter. Check that business out <a className="here" href="https://twitter.com/imagecrate" target="_blank" rel="noopener noreferrer">
+                                    <motion.div
+                                        whileTap={{ scale: 0.97, }}
+                                        whileHover={{
+                                            color: "#ced2fa",
+                                            transition: { duration: 0.2 }
+                                        }} className="link">here
                                 </motion.div>
                                 </a>.
                         </p>

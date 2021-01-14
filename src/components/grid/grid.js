@@ -5,7 +5,7 @@ import { Card } from '../card/card';
 
 const cards = [
   {
-    link: '/pd',
+    link: '/404',
     color: '#191E21',
     title: 'Project Destroyer',
     tags: ['Product Design', 'Front-End'],
@@ -14,16 +14,16 @@ const cards = [
     action: 'View case study →'
   },
   {
-    link: '/google',
+    link: '/404',
     color: '#191E21',
     title: 'Google UX Challenge',
     tags: ['Product Design'],
     image: 'https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/google-product.png',
     date: 'Feb 2020',
-    action: 'View case study →'
+    action: 'View case study →',
   },
   {
-    link: '/imagecrate',
+    link: '/404',
     color: '#191E21',
     title: 'imagecrate',
     tags: ['Freelance'],

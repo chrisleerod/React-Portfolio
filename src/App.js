@@ -6,6 +6,7 @@ import Footer from "./components/footer/footer.js";
 import Homepage from "./components/homepage/homepage";
 import About from "./components/about/about.js";
 import Process from "./components/process.js";
+import Error from "./components/404/Error.js";
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
@@ -14,13 +15,16 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Navbar />
+      <div className="app-container">
+        <Navbar />
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/about" component={About} />
           <Route path="/process" component={Process} />
+          <Route path="/404" component={Error} />
         </Switch>
-      <Footer />
+        <Footer />
+      </div>
     </Router>
   );
 }
