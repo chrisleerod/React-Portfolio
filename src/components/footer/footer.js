@@ -49,13 +49,13 @@ class footer extends Component {
                         <div className="footer-links-container">
                             <ul className="footer-links">
                                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/chrisleerod">
-                                    <li>GitHub ↗︎</li>
+                                    <li>GitHub ↗</li>
                                 </a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod">
-                                    <li>LinkedIn ↗︎</li>
+                                    <li>LinkedIn ↗</li>
                                 </a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view">
-                                    <li>Resume ↗︎</li>
+                                    <li>Resume ↗</li>
                                 </a>
                             </ul>
                         </div>
