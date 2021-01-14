@@ -6,7 +6,23 @@ class about extends Component {
     render() {
         return (
             <div className="about-container">
-                <div className="me-card-container">
+                <motion.div className="me-card-container"
+                    initial={{
+                        y: 50,
+                        opacity: 0,
+                        skewY: 0
+                    }}
+                    animate={{
+                        y: 0,
+                        opacity: 1,
+                        skewY: 0
+                    }}
+                    transition={{
+                        delay: 0.1,
+                        ease: [.19, 1, .22, 1],
+                        duration: 2,
+                    }}
+                >
                     <div className="me-card">
                         <div className="picture">
                             <img src="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/memoji.png" alt="" />
@@ -22,8 +38,24 @@ class about extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="body-text">
+                </motion.div>
+                <motion.div className="body-text"
+                    initial={{
+                        y: 50,
+                        opacity: 0,
+                        skewY: 0
+                    }}
+                    animate={{
+                        y: 0,
+                        opacity: 1,
+                        skewY: 0
+                    }}
+                    transition={{
+                        delay: 0.2,
+                        ease: [.19, 1, .22, 1],
+                        duration: 2,
+                    }}
+                >
                     <div className="section">
                         <h4 className="title-text">About me</h4>
                         <div className="body-text">
@@ -97,10 +129,26 @@ class about extends Component {
                             </a>
                         </div>
                     </div>
-                </div>
-                <div className="me-pic">
+                </motion.div>
+                <motion.div className="me-pic"
+                    initial={{
+                        y: 50,
+                        opacity: 0,
+                        skewY: 0
+                    }}
+                    animate={{
+                        y: 0,
+                        opacity: 1,
+                        skewY: 0
+                    }}
+                    transition={{
+                        delay: 0.3,
+                        ease: [.19, 1, .22, 1],
+                        duration: 2,
+                    }}
+                >
                     <img src="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/purple.jpg" alt="" />
-                </div>
+                </motion.div>
             </div>
         );
     }
