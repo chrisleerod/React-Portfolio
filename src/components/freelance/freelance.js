@@ -85,7 +85,7 @@ class freelance extends Component {
                                 tag="MOTION"
                                 year="2019"
                                 title="Kodai Dashboard"
-                                description="I teamed up with the Kodai team to demonstrate their new companion web-dashboard."
+                                description="I teamed up with the Kodai team to demonstrate their new companion web-dashboard and its extensive features."
                                 views="103k+ views"
                             />
                         </motion.div>
