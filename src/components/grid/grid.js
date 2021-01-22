@@ -23,7 +23,7 @@ const cards = [
     action: 'View case study →',
   },
   {
-    link: '/404',
+    link: '/freelance',
     color: '#191E21',
     title: 'imagecrate',
     tags: ['Freelance'],

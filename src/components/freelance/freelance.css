@@ -1,0 +1,13 @@
+.freelance-wrapper {
+    margin-top: 128px;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.freelance-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 32px 32px;
+}

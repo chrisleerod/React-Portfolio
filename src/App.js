@@ -6,6 +6,7 @@ import Footer from "./components/footer/footer.js";
 import Homepage from "./components/homepage/homepage";
 import About from "./components/about/about.js";
 import Process from "./components/process.js";
+import Freelance from "./components/freelance/freelance.js";
 import Error from "./components/404/Error.js";
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" exact component={Homepage} />
           <Route path="/about" component={About} />
           <Route path="/process" component={Process} />
+          <Route path="/freelance" component={Freelance} />
           <Route path="/404" component={Error} />
         </Switch>
         <Footer />

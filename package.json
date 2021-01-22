@@ -13,9 +13,11 @@
     "react": "^16.13.1",
     "react-device-detect": "^1.15.0",
     "react-dom": "^16.13.1",
+    "react-ga": "^3.3.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
