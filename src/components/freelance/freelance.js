@@ -39,6 +39,7 @@ class freelance extends Component {
                             }}
                         >
                             <ProjCard
+                                background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/prism.png"
                                 tag="MOTION"
                                 year="2020"
                                 title="Prism 2.0"
@@ -59,6 +60,7 @@ class freelance extends Component {
                             }}
                         >
                             <ProjCard
+                                background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/cybersole.png"
                                 tag="MOTION"
                                 year="2019"
                                 title="Cybersole 4.0"
@@ -79,6 +81,7 @@ class freelance extends Component {
                             }}
                         >
                             <ProjCard
+                                background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/kodai.png"
                                 tag="MOTION"
                                 year="2019"
                                 title="Kodai Dashboard"
@@ -99,6 +102,7 @@ class freelance extends Component {
                             }}
                         >
                             <ProjCard
+                                background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/sole.png"
                                 tag="MOTION"
                                 year="2020"
                                 title="Sole AIO 1.0"

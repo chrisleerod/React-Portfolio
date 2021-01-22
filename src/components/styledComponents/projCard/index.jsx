@@ -10,10 +10,16 @@ import {
   Footer
 } from './index.style';
 
-const CardProj = ({ tag, year, title, description, views }) => {
+const CardProj = ({ tag, year, title, description, views, background }) => {
     return (
       <CardWrapper>
-        <ImgWrapper/>
+        <ImgWrapper
+        style= {{
+          backgroundImage: `url(${background})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+        />
         <ContentWrapper>
           <Header>
             <p>{tag}</p>
