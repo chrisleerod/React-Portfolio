@@ -6,7 +6,27 @@
     margin-bottom: 128px;
 }
 
+.freelance-header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.freelance-header h1 {
+    font-size: 31.25px;
+    color: #F2F2F2;
+}
+
+.freelance-header p {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #F2F2F2;
+    opacity: 0.8;
+    max-width: 600px;
+    margin-top: 16px;
+}
+
 .freelance-grid {
+    margin-top: 128px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -17,6 +37,9 @@
     .freelance-wrapper {
         margin-top: 64px;
         margin-bottom: 64px;
+    }
+    .freelance-grid {
+        margin-top: 64px;
     }
 }
 

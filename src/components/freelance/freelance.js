@@ -24,9 +24,43 @@ class freelance extends Component {
                     duration: 2,
                 }}
             >
-                <div className="freelance-title"></div>
-                <div className="freelance-description"></div>
-                <div className="freelance-grid">
+                <motion.div className="freelance-header"
+                    initial={{
+                        y: 50,
+                        opacity: 0,
+                        skewY: 0
+                    }}
+                    animate={{
+                        y: 0,
+                        opacity: 1,
+                        skewY: 0
+                    }}
+                    transition={{
+                        delay: 0.1,
+                        ease: [.19, 1, .22, 1],
+                        duration: 2,
+                    }}
+                >
+                    <h1>Freelance projects</h1>
+                    <p>Below will be selected work primarily showcasing my marketing animation projects completed through my freelance agency, imagecrate.</p>
+                </motion.div>
+                <motion.div className="freelance-grid"
+                    initial={{
+                        y: 50,
+                        opacity: 0,
+                        skewY: 0
+                    }}
+                    animate={{
+                        y: 0,
+                        opacity: 1,
+                        skewY: 0
+                    }}
+                    transition={{
+                        delay: 0.2,
+                        ease: [.19, 1, .22, 1],
+                        duration: 2,
+                    }}
+                >
                     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/PrismAIO/status/1291131868608376832?s=20">
                         <motion.div
                             initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
@@ -111,7 +145,7 @@ class freelance extends Component {
                             />
                         </motion.div>
                     </a>
-                </div>
+                </motion.div>
                 <div className="spacer2"></div>
             </motion.div >
         );
