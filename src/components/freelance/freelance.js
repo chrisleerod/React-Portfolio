@@ -7,7 +7,23 @@ import ProjCard from '../styledComponents/projCard';
 class freelance extends Component {
     render() {
         return (
-            <div className="freelance-wrapper">
+            <motion.div className="freelance-wrapper"
+                initial={{
+                    y: 50,
+                    opacity: 0,
+                    skewY: 0
+                }}
+                animate={{
+                    y: 0,
+                    opacity: 1,
+                    skewY: 0
+                }}
+                transition={{
+                    delay: 0.1,
+                    ease: [.19, 1, .22, 1],
+                    duration: 2,
+                }}
+            >
                 <div className="freelance-title"></div>
                 <div className="freelance-description"></div>
                 <div className="freelance-grid">
@@ -26,8 +42,8 @@ class freelance extends Component {
                                 tag="MOTION"
                                 year="2020"
                                 title="Prism 2.0"
-                                description="I teamed up with Prism’s team to unveil their latest software update."
-                                views="115k+ views"
+                                description="I teamed up with Prism’s team to unveil their 2.0 software update by creating a marketing animation showing the new features."
+                                views="118k+ views"
                             />
                         </motion.div>
                     </a>
@@ -64,10 +80,10 @@ class freelance extends Component {
                         >
                             <ProjCard
                                 tag="MOTION"
-                                year="2020"
+                                year="2019"
                                 title="Kodai Dashboard"
                                 description="I teamed up with the Kodai team to demonstrate their new companion web-dashboard."
-                                views="115k+ views"
+                                views="103k+ views"
                             />
                         </motion.div>
                     </a>
@@ -93,7 +109,7 @@ class freelance extends Component {
                     </a>
                 </div>
                 <div className="spacer2"></div>
-            </div >
+            </motion.div >
         );
     }
 }

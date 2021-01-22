@@ -3,15 +3,27 @@ import styled from 'styled-components'
 export const CardWrapper = styled.div`
     display: flex;
     min-height: 250px;
+    min-width: 100%;
     height: 100%;
     border-radius: 8px;
     border: 1px solid #283237;
+    @media only screen and (max-width: 500px) {
+        {
+            flex-direction: column;
+        }
+    }
 `;
 
 export const ImgWrapper = styled.div`
     min-width: 225px;
     background-color: #283237;
     border-radius: 8px 0px 0px 8px;
+    @media only screen and (max-width: 500px) {
+        {
+            min-height: 225px;
+            border-radius: 8px 8px 0px 0px;
+        }
+    }
 `;
 
 export const ContentWrapper = styled.div`
@@ -19,7 +31,7 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     padding: 16px;
     border-radius: 0px 8px 8px 0px;
-    max-width: 359px;
+    width: 100%;
 `;
 
 export const Header = styled.div`

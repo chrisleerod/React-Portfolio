@@ -11,3 +11,15 @@
     grid-template-rows: auto;
     gap: 32px 32px;
 }
+
+@media only screen and (max-width: 500px) {
+    .freelance-wrapper {
+        margin-top: 64px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .freelance-grid {
+        grid-template-columns: 1fr;
+    }
+}
