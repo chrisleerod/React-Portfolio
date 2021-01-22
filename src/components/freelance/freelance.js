@@ -41,7 +41,7 @@ class freelance extends Component {
                         duration: 2,
                     }}
                 >
-                    <h1>Freelance projects</h1>
+                    <h2>Freelance projects</h2>
                     <p>Below will be selected work primarily showcasing my marketing animation projects completed through my freelance agency, imagecrate.</p>
                 </motion.div>
                 <motion.div className="freelance-grid"

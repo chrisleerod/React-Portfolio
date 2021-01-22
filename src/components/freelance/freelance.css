@@ -38,6 +38,9 @@
         margin-top: 64px;
         margin-bottom: 64px;
     }
+    .freelance-header h2 {
+        font-size: 31.25px;
+    }
     .freelance-grid {
         margin-top: 64px;
     }

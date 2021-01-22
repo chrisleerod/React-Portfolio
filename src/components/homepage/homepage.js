@@ -153,7 +153,7 @@ class homepage extends Component {
                             Hi, I'm Chris –– a <span style={{ fontStyle: "italic", fontWeight: "600" }}>product designer</span>,
                         <span style={{ fontStyle: "italic", fontWeight: "600" }}> front-end engineer</span>,
                         and <span style={{ fontStyle: "italic", fontWeight: "600" }}>student</span> based in Nashville, TN.
-                        I am passionate about creating cohesive digital design solutions.
+                        I am passionate about creating cohesive digital design experiences.
                         <br></br>
                             <br></br>
                         Currently looking for 2021 new grad & internship opportunities.
