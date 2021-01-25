@@ -105,7 +105,7 @@ class about extends Component {
                                         color: "#ced2fa",
                                         transition: { duration: 0.2 }
                                     }} className="link">
-                                    <p>Email ↗︎</p>
+                                    <p>Email ↗</p>
                                 </motion.div>
                             </a>
                             <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod">
@@ -115,7 +115,7 @@ class about extends Component {
                                         color: "#ced2fa",
                                         transition: { duration: 0.2 }
                                     }} className="link">
-                                    <p>LinkedIn ↗︎</p>
+                                    <p>LinkedIn ↗</p>
                                 </motion.div>
                             </a>
                             <a target="_blank" rel="noopener noreferrer" href="https://calendly.com/chrisleerod">
@@ -125,7 +125,7 @@ class about extends Component {
                                         color: "#ced2fa",
                                         transition: { duration: 0.2 }
                                     }} className="link">
-                                    <p>Calendly ↗︎</p>
+                                    <p>Calendly ↗</p>
                                 </motion.div>
                             </a>
                         </div>
