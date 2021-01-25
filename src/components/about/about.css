@@ -1,5 +1,5 @@
 .paragraph {
-    margin-bottom: 16px;
+    margin-bottom: 16px
 }
 
 .about-container {
@@ -61,8 +61,12 @@
 .body-text {
     max-width: 640px;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.5em;
     color: #F2F2F2;
+    opacity: 0.8;
+    margin-top: 16px;
+    font-weight: 400;
 }
 
 .section {
@@ -86,12 +90,6 @@
     color: #ced2fa
 }
 
-.body-text {
-    line-height: 1.65em;
-    margin-top: 16px;
-    font-weight: 400;
-}
-
 .link-container {
     display: flex;
     flex-wrap: wrap;
@@ -107,7 +105,7 @@
     display: flex;
     align-items: center;
     line-height: 1;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: #828fff;
 }
@@ -122,18 +120,19 @@
     }
     .body-text {
         font-size: 16px;
+        line-height: 1.65em;
     }
     .link {
         font-size: 16px;
     }
     .me-pic img {
-        margin-top: 16px;
+        margin-top: -16px;
     }
     .me-card-container {
-        margin-bottom: 64px;
+        margin-bottom: 32px;
     }
     .about-container {
-        margin-top: 64px;
+        margin-top: 32px;
         margin-bottom: 64px;
     }
 }
