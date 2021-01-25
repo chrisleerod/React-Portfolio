@@ -43,9 +43,7 @@ export const Header = styled.div`
     letter-spacing: 0.05em;
 `;
 
-export const Title = styled.h1`
-    font-size: 18px;
-    font-weight: 700;
+export const Title = styled.h6`
     color: #F2F2F2;
     margin-top: 16px;
 `;
@@ -54,7 +52,7 @@ export const Description = styled.p`
     font-size: 16px;
     color: #F2F2F2;
     font-weight: 400;
-    line-height: 1.65em;
+    line-height: 1.5em;
     margin-top: 8px;
     opacity: 0.8;
 `;

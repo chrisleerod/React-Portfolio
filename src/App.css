@@ -13,26 +13,41 @@
 h1 {
   font-size: 48.83px;
   font-weight: 700;
+  letter-spacing: -0.022em;
 }
 
 h2 {
   font-size: 39.06px;
   font-weight: 700;
+  letter-spacing: -0.022em;
 }
 
 h3 {
   font-size: 31.25px;
   font-weight: 700;
+  letter-spacing: -0.021em;
 }
 
 h4 {
   font-size: 25.00px;
   font-weight: 700;
+  letter-spacing: -0.019em;
 }
 
 h5 {
   font-size: 20.00px;
   font-weight: 700;
+  letter-spacing: -0.017em;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.014em;
+}
+
+p {
+  letter-spacing: -0.011em;
 }
 
 body {
