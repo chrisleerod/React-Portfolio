@@ -14,7 +14,7 @@ const cards = [
     action: 'View case study →'
   },
   {
-    link: '/404',
+    link: '/google',
     color: '#191E21',
     title: 'Google UX Challenge',
     tags: ['Product Design'],
