@@ -9,6 +9,7 @@ export const HeaderWrapper = styled.div`
     width: 100%;
     position: relative;
     margin-top: -72px;
+    overflow: hidden;
     @media only screen and (max-width: 500px) {
         padding: 0 24px;
     }
