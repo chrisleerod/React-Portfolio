@@ -10,7 +10,6 @@ import Spacer from '../styledComponents/spacer'
 
 import {
     ContentWrapper,
-    MaxWidth
 } from './index.style';
 
 const Google = () => {
