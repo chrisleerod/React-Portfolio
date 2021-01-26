@@ -3,11 +3,13 @@ import './freelance.css';
 import { motion } from "framer-motion";
 
 import ProjCard from '../styledComponents/projCard';
+import Navbar from '../navbar/navbar.js';
 
 class freelance extends Component {
     render() {
         return (
             <div className="wrapper">
+                <Navbar />
                 <motion.div className="freelance-wrapper"
                     initial={{
                         y: 50,
