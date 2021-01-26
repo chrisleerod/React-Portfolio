@@ -27,6 +27,7 @@ export const Title = styled.h1`
 `;
 
 export const Graphic = styled.img`
+    pointer-events: none;
     display: block;
     margin: 0 auto;
     margin-top: 128px;
