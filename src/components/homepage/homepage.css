@@ -1,5 +1,8 @@
-.top-container {
-  
+.wrapper {
+  max-width: 1264px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin: 0 auto;
 }
 
 .header-container {
@@ -96,6 +99,10 @@
   
 
   @media only screen and (max-width: 500px) {
+    .wrapper {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
     .top {
       margin-top: 64px;
     }
