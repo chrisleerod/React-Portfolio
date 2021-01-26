@@ -27,10 +27,12 @@ export const Title = styled.h1`
 `;
 
 export const Graphic = styled.img`
+    display: block;
     margin: 0 auto;
     margin-top: 128px;
     max-width: 552px;
     max-height: 448px;
-    width: 100%;
+    width: auto;
+    height: auto;
     background-image: ${props => props.graphic};
 `;
