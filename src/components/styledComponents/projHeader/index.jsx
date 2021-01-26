@@ -6,13 +6,13 @@ import {
     Graphic,
   } from './index.style';
 
-  const ProjHeader = ({ title, graphic}) => {
+  const ProjHeader = ({ title, graphic }) => {
     return (
         <HeaderWrapper>
             <Title>
                 {title}
             </Title>
-            <Graphic graphic={graphic} />
+            <Graphic src={graphic} />
         </HeaderWrapper>
     );
   };

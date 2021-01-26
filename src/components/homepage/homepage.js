@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-
+import Navbar from '../navbar/navbar.js';
 
 import { Grid } from '../grid/grid';
 import { Paragraphs } from '../madewith/madewith';
@@ -12,6 +12,7 @@ class homepage extends Component {
     render() {
         return (
             <div className="wrapper">
+                <Navbar />
                 <div className="top-container">
                     <div className="top">
                         <div className="header-container">

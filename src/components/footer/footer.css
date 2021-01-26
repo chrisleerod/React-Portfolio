@@ -1,6 +1,9 @@
 .footer-container {
     display: flex;
     margin-bottom: 64px;
+    max-width: 1200px;
+    width: calc(100% - 64px);
+    margin: 0 auto;
 }
 
 .footer-right {

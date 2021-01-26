@@ -53,9 +53,6 @@ p {
 body {
   background-color: #121619;
   font-family: "Inter", "system-ui";
-  max-width: 1264px;
-  padding-left: 32px;
-  padding-right: 32px;
   margin: 0 auto;
   color: #F2F2F2;
 }
@@ -72,10 +69,6 @@ a {
 }
 
 @media only screen and (max-width: 500px) {
-  body {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
   .app-container {
     display: flex;
     flex-direction: column;

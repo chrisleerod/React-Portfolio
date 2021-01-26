@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import './about.css';
+import Navbar from '../navbar/navbar.js';
 import { motion } from "framer-motion";
 
 class about extends Component {
     render() {
         return (
             <div className="about-container">
+                <Navbar />
                 <motion.div className="me-card-container"
                     initial={{
                         y: 50,
