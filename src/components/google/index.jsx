@@ -54,7 +54,7 @@ const Google = () => {
                 />
                 <Spacer spacer="128px" />
                 <div style={{margin: "0 auto", textAlign: "center"}}>
-                    <video src={"https://chrisleerod-portfolio.s3.amazonaws.com/Videos/prototype.mp4"} autoPlay loop style={{ width: "100%", maxWidth: "765px", height: "100%", maxHeight: "600px" }} />
+                    <video src={"https://chrisleerod-portfolio.s3.amazonaws.com/Videos/prototype.mp4"} autoPlay muted loop style={{ width: "100%", maxWidth: "765px", height: "100%", maxHeight: "600px" }} />
                 </div>
                 <Spacer spacer="128px" />
                 <Paragraph
