@@ -65,3 +65,9 @@
 .footer-links a:hover {
     color: rgba(242, 242, 242, 1);
   }
+
+  @media only screen and (max-width: 500px) {
+      .footer-container {
+        width: calc(100% - 48px); 
+      }
+  }
