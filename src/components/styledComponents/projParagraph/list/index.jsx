@@ -20,7 +20,7 @@ const Research = () => {
                     <br/>
                     <li><p>77% of the non-first-year respondents expressed some interest in volunteering to guide first-year students.</p></li>
                     <br/>
-                    <li><p>97% of respondents said they had at least some interest in using an application that provides a community-like platform for guidance and</p></li>
+                    <li><p>97% of respondents said they had at least some interest in using an application that provides a community-like platform for guidance and mentorship.</p></li>
                 </ul>
             </List>
         </Paragraph>
