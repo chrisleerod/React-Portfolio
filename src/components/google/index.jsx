@@ -37,6 +37,11 @@ const Google = () => {
                     duration="February 12-19, 2020"
                     tools="Sketch, InVision Studio, and Photoshop"
                 />
+                <Spacer spacer="16px" />
+                <Button
+                    link="https://docs.google.com/presentation/d/11LabDODmaJgH7l2qcoFkZ_HsRcJu1xvPhqiUe7Z2wFA/edit?usp=sharing"
+                    buttonText="View Slide Deck"
+                />
                 <Spacer spacer="64px" />
                 <Block
                     title="Brief"
