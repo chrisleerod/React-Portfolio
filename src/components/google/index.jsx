@@ -11,6 +11,7 @@ import Research from '../styledComponents/projParagraph/list';
 import Block from '../styledComponents/projParagraph/block';
 import LargeBlock from '../styledComponents/projParagraph/bigBlock';
 import SpecialBlock from '../styledComponents/projParagraph/specialBlock';
+import PersonaCard from '../styledComponents/personaCard';
 import Number from '../styledComponents/projParagraph/number';
 import Spacer from '../styledComponents/spacer';
 import Image from '../styledComponents/projImage';
@@ -108,10 +109,32 @@ const Google = () => {
                 />
                 <Spacer spacer="32px" />
                 <LargeBlock />
-                <Spacer spacer="32px" />
+                <Spacer spacer="64px" />
                 <Paragraph
                     title="Creating personas"
                     text="Once there was a clear hierarchy of the problems at hand, I began creating personas to give myself a clearer view of who I was designing this application for. I wanted to keep in mind that there were students at different levels of experience, and some new students aren’t freshman. They can also be transfer students. So moving forward, I created three personas: The Freshman, The Transfer Student, and The Experienced Senior."
+                />
+                <Spacer spacer="32px" />
+                <PersonaCard
+                    background="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                    title="FIRST-YEAR STUDENT"
+                    name="Emir Aldred"
+                    text="Emir is a first-semester student excited about college but doesn’t know where to start. He likes the idea of joining a club but is a little timid, nor does he know where he can find someone who he can talk to about this."
+                />
+                <Spacer spacer="16px" />
+                <PersonaCard
+                    background="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                    title="SECOND-YEAR TRANSFER STUDENT"
+                    name="Angela Donaldson"
+                    text="Angela is a second-year transfer student who has the ropes of college, but could use some help navigating the campus and getting to know the event system a little better.
+                    "
+                />
+                <Spacer spacer="16px" />
+                <PersonaCard
+                    background="https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80"
+                    title="FOURTH-YEAR STUDENT"
+                    name="Andrew Wu"
+                    text="Andrew is a high-achieving fourth-year student who loves volunteering in the community. He wants to add a couple things to his resume that demonstrates his leadership qualities, but doesn’t really know where he could start."
                 />
                 <Spacer spacer="32px" />
                 <Paragraph
