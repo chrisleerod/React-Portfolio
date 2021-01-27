@@ -156,6 +156,11 @@ const Google = () => {
                 />
                 <Spacer spacer="32px" />
                 <SpecialBlock />
+                <Spacer spacer="32px" />
+                <Paragraph
+                    title="What did user testing accomplish?"
+                    text="Getting user opinions and testing data proved to show some weaknesses in the initial designs. I went back and reiterated the designs to strengthen the user's experience. For example, a clear problem was the navigation to view both potential and current connections. The initial designs I came up with did not allow the user to easily navigate between the two options."
+                />
                 <Spacer spacer="64px" />
                 <BlockImage
                     blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/drawer1.png"
@@ -181,7 +186,7 @@ const Google = () => {
                 <BlockImage
                     blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/hifi3.png"
                 />
-                <Spacer spacer="128px" />
+                <Spacer spacer="64px" />
                 <Paragraph
                     title="Reflection"
                     text="Overall, I had an absolutely amazing time working on this project. I learned a ton about the Google Venture design process and it also allowed me to think critically to fit my design solutions in just a six-day period. Overall, I would have liked to validate my designs further with more user testing with the high-fidelity prototypes, but was not able to due to time constraints."
