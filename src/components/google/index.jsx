@@ -6,6 +6,8 @@ import ProjInfo from '../styledComponents/projInfo'
 import Paragraph from '../styledComponents/projParagraph'
 import NoTitleParagraph from '../styledComponents/projParagraph/notitle'
 import IconParagraph from '../styledComponents/iconParagraph'
+import Responses from '../styledComponents/projParagraph/quoteBlock'
+import Research from '../styledComponents/projParagraph/list'
 import Block from '../styledComponents/projParagraph/block'
 import SpecialBlock from '../styledComponents/projParagraph/specialBlock'
 import Number from '../styledComponents/projParagraph/number'
@@ -94,14 +96,14 @@ const Google = () => {
                     text="If you do want advice or mentorship, who do you contact and how? How is that experience?"
                 />
                 <Spacer spacer="64px" />
-                <Block
-                    title="The Responses"
-                    paragraph="It was mediocre, I was able to get some help from RA's, but not to the extent I would prefer."
-                    paragraph2="This design exercise is my take on the problem mentioned above. It was completed over a seven-day design sprint in response to Google’s UX internship design challenge."
-                />
-                <Block
-                    paragraph="It was mediocre, I was able to get some help from RA's, but not to the extent I would prefer."
-                    paragraph2="This design exercise is my take on the problem mentioned above. It was completed over a seven-day design sprint in response to Google’s UX internship design challenge."
+                <Responses />
+                <Spacer spacer="64px" />
+                <Research />
+                <Spacer spacer="128px" />
+                <Number
+                    number="02"
+                    title="Define"
+                    paragraph="This phase utlized the research from the previous phase to better understand the audience and create user insights to form personas. Most importantly, it would allow me to better cover the evident issues and focus on what is most important."
                 />
                 <Spacer spacer="128px" />
                 <Number
