@@ -7,6 +7,7 @@ import Paragraph from '../styledComponents/projParagraph'
 import NoTitleParagraph from '../styledComponents/projParagraph/notitle'
 import IconParagraph from '../styledComponents/iconParagraph'
 import Block from '../styledComponents/projParagraph/block'
+import NoTitle from '../styledComponents/projParagraph/blockNoTitle'
 import Number from '../styledComponents/projParagraph/number'
 import Spacer from '../styledComponents/spacer'
 import Image from '../styledComponents/projImage'
@@ -58,7 +59,7 @@ const Google = () => {
                     title="Defining the sprint"
                     text="Given the short deadline, I decided to use Google Venture's Design sprint methodology as a general guideline. This helped me set goals and manage my time."
                 />
-                <Spacer spacer="128px" />
+                <Spacer spacer="64px" />
                 <BlockImage
                     blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/sprint.png"
                 />
@@ -135,6 +136,24 @@ const Google = () => {
                     text="Not only did these iterations allow me to create more refined, user-experience-oriented designs, but it allowed me to gain a better grasp of what the overall direction and mission of this application was going to be. What screens could I consolidate into one? Which interfaces could be adjusted to remove unnecessary information? I was able to view the experience as a map instead of a linear timeline. My ideation was dramatically shifted thanks to these small roadblocks and changes."
                 />
                 <Spacer spacer="128px" />
+                <Number
+                    number="05 - 06"
+                    title="Prototype/validate"
+                    paragraph="After finalizing the wireframe and sketches, I then moved onto mid-fidelity designs and prototyping while using Material UI as a framework. This expedited the design process which allowed for more thoughtful decisions. I created a prototype via InVision Studio."
+                />
+                <Spacer spacer="64px" />
+                <BlockImage
+                    blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/lofi1.png"
+                />
+                <Spacer spacer="64px" />
+                <BlockImage
+                    blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/lofi2.png"
+                />
+                <Spacer spacer="64px" />
+                <Paragraph
+                    title="Conducting user testing"
+                    text="After designing and creating a functional prototype in InVision Studio, I conducted some user tests with three users. No context of the design was given prior to testing. The goal was to hear from unbiased users and how they felt about the functionality and experience as a whole."
+                />
             </ContentWrapper>
             <Footer />
         </>
