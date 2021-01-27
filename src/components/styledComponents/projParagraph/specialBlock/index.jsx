@@ -6,7 +6,7 @@ import {
     Header
 } from '../index.style';
 
-const BlockNoTitle = ({ }) => {
+const SpecialBlock = ({ }) => {
     return (
         <Paragraph>
             <Header>
@@ -25,4 +25,4 @@ const BlockNoTitle = ({ }) => {
     );
 };
 
-export default BlockNoTitle;
+export default SpecialBlock;
