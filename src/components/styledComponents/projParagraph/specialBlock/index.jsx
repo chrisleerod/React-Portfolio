@@ -6,7 +6,7 @@ import {
     Header
 } from '../index.style';
 
-const SpecialBlock = ({ }) => {
+const SpecialBlock = () => {
     return (
         <Paragraph>
             <Header>
