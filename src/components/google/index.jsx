@@ -5,6 +5,7 @@ import ProjHeader from '../styledComponents/projHeader';
 import ProjInfo from '../styledComponents/projInfo';
 import Paragraph from '../styledComponents/projParagraph';
 import NoTitleParagraph from '../styledComponents/projParagraph/notitle';
+import Button from '../styledComponents/button';
 import IconParagraph from '../styledComponents/iconParagraph';
 import Responses from '../styledComponents/projParagraph/quoteBlock';
 import Research from '../styledComponents/projParagraph/list';
@@ -52,8 +53,13 @@ const Google = () => {
                     title="Solution"
                     text="My solution, “MentorU,” promotes campus community by providing a platform that hosts events, clubs, mentor connections, messaging, and calendar events. View the final prototype below."
                 />
+                <Spacer spacer="16px" />
+                <Button
+                    link="https://projects.invisionapp.com/prototype/cka52rx83004mo10113wo7mpb/play"
+                    buttonText="View Final Prototype"
+                />
                 <Spacer spacer="128px" />
-                <div style={{margin: "0 auto", textAlign: "center"}}>
+                <div style={{ margin: "0 auto", textAlign: "center" }}>
                     <video src={"https://chrisleerod-portfolio.s3.amazonaws.com/Videos/prototype.mp4"} playsInline autoPlay autoBuffer muted loop style={{ width: "100%", maxWidth: "765px", height: "100%", maxHeight: "600px" }} />
                 </div>
                 <Spacer spacer="128px" />
@@ -183,6 +189,11 @@ const Google = () => {
                     title="Prototype/validate"
                     paragraph="After finalizing the wireframe and sketches, I then moved onto mid-fidelity designs and prototyping while using Material UI as a framework. This expedited the design process which allowed for more thoughtful decisions. I created a prototype via InVision Studio."
                 />
+                <Spacer spacer="16px" />
+                <Button
+                    link="https://projects.invisionapp.com/prototype/Google-Low-Fi-cka090fgq0016e801jm1vvnn7/play/d85390bd"
+                    buttonText="View Lofi Prototype"
+                />
                 <Spacer spacer="64px" />
                 <BlockImage
                     blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/lofi1.png"
@@ -215,6 +226,11 @@ const Google = () => {
                 <Paragraph
                     title="Final solutions"
                     text="Wrapping up the sprint, I further iterated and created a high-fidelity prototype featuring in-depth animations to present to Google."
+                />
+                <Spacer spacer="16px" />
+                <Button
+                    link="https://projects.invisionapp.com/prototype/cka52rx83004mo10113wo7mpb/play"
+                    buttonText="View Final Prototype"
                 />
                 <Spacer spacer="64px" />
                 <BlockImage
