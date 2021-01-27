@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Paragraph = styled.div`
     max-width: 640px;
+    margin: 0 auto;
     h4 {
         font-size: 25.00px;
         font-weight: 700;

@@ -3,6 +3,8 @@ import styled from 'styled-components'
 export const InfoWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 640px;
 `;
 
 export const Info = styled.div`
