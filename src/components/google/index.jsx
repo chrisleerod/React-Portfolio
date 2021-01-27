@@ -7,7 +7,7 @@ import Paragraph from '../styledComponents/projParagraph'
 import NoTitleParagraph from '../styledComponents/projParagraph/notitle'
 import IconParagraph from '../styledComponents/iconParagraph'
 import Block from '../styledComponents/projParagraph/block'
-import NoTitle from '../styledComponents/projParagraph/blockNoTitle'
+import SpecialBlock from '../styledComponents/projParagraph/blockNoTitle'
 import Number from '../styledComponents/projParagraph/number'
 import Spacer from '../styledComponents/spacer'
 import Image from '../styledComponents/projImage'
@@ -154,6 +154,54 @@ const Google = () => {
                     title="Conducting user testing"
                     text="After designing and creating a functional prototype in InVision Studio, I conducted some user tests with three users. No context of the design was given prior to testing. The goal was to hear from unbiased users and how they felt about the functionality and experience as a whole."
                 />
+                <Spacer spacer="32px" />
+                <SpecialBlock />
+                <Spacer spacer="64px" />
+                <BlockImage
+                    blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/drawer1.png"
+                />
+                <Spacer spacer="64px" />
+                <BlockImage
+                    blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/drawer2.png"
+                />
+                <Spacer spacer="128px" />
+                <Paragraph
+                    title="Final solutions"
+                    text="Wrapping up the sprint, I further iterated and created a high-fidelity prototype featuring in-depth animations to present to Google."
+                />
+                <Spacer spacer="64px" />
+                <BlockImage
+                    blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/hifi1.png"
+                />
+                <Spacer spacer="64px" />
+                <BlockImage
+                    blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/hifi2.png"
+                />
+                <Spacer spacer="64px" />
+                <BlockImage
+                    blockimage="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/hifi3.png"
+                />
+                <Spacer spacer="128px" />
+                <Paragraph
+                    title="Reflection"
+                    text="Overall, I had an absolutely amazing time working on this project. I learned a ton about the Google Venture design process and it also allowed me to think critically to fit my design solutions in just a six-day period. Overall, I would have liked to validate my designs further with more user testing with the high-fidelity prototypes, but was not able to due to time constraints."
+                />
+                <Spacer spacer="32px" />
+                <Paragraph
+                    title="What's next"
+                    text="Before finalizing the product, I'd begin user testing to either validate the final designs or call for further iterations."
+                />
+                <Spacer spacer="32px" />
+                <Paragraph
+                    title="What I learned"
+                    text="I learned a ton about design sprints - specifically the Google Venture design methodology. This project also taught me how to condense my workflow to meet a tight deadline. I also learned how to effectively use qualitative and quantitative data to pinpoint problems and guide myself towards design solutions."
+                />
+                <Spacer spacer="32px" />
+                <Paragraph
+                    title="Thank you"
+                    text="If you've scrolled this far, thank you for taking your time to read a little about my design decisions and solutions in response to the prompt. If you'd like to talk more about the project, please reach out!"
+                />
+                <Spacer spacer="128px" />
             </ContentWrapper>
             <Footer />
         </>
