@@ -2,18 +2,19 @@ import React from "react";
 import Navbar from '../navbar/navbar.js';
 import Footer from '../footer/footer.js';
 import ProjHeader from '../styledComponents/projHeader';
-import ProjInfo from '../styledComponents/projInfo'
-import Paragraph from '../styledComponents/projParagraph'
-import NoTitleParagraph from '../styledComponents/projParagraph/notitle'
-import IconParagraph from '../styledComponents/iconParagraph'
-import Responses from '../styledComponents/projParagraph/quoteBlock'
-import Research from '../styledComponents/projParagraph/list'
-import Block from '../styledComponents/projParagraph/block'
-import SpecialBlock from '../styledComponents/projParagraph/specialBlock'
-import Number from '../styledComponents/projParagraph/number'
-import Spacer from '../styledComponents/spacer'
-import Image from '../styledComponents/projImage'
-import BlockImage from '../styledComponents/projImage/blockImage'
+import ProjInfo from '../styledComponents/projInfo';
+import Paragraph from '../styledComponents/projParagraph';
+import NoTitleParagraph from '../styledComponents/projParagraph/notitle';
+import IconParagraph from '../styledComponents/iconParagraph';
+import Responses from '../styledComponents/projParagraph/quoteBlock';
+import Research from '../styledComponents/projParagraph/list';
+import Block from '../styledComponents/projParagraph/block';
+import LargeBlock from '../styledComponents/projParagraph/bigBlock';
+import SpecialBlock from '../styledComponents/projParagraph/specialBlock';
+import Number from '../styledComponents/projParagraph/number';
+import Spacer from '../styledComponents/spacer';
+import Image from '../styledComponents/projImage';
+import BlockImage from '../styledComponents/projImage/blockImage';
 
 import {
     ContentWrapper,
@@ -105,6 +106,19 @@ const Google = () => {
                     title="Define"
                     paragraph="This phase utlized the research from the previous phase to better understand the audience and create user insights to form personas. Most importantly, it would allow me to better cover the evident issues and focus on what is most important."
                 />
+                <Spacer spacer="32px" />
+                <LargeBlock />
+                <Spacer spacer="32px" />
+                <Paragraph
+                    title="Creating personas"
+                    text="Once there was a clear hierarchy of the problems at hand, I began creating personas to give myself a clearer view of who I was designing this application for. I wanted to keep in mind that there were students at different levels of experience, and some new students aren’t freshman. They can also be transfer students. So moving forward, I created three personas: The Freshman, The Transfer Student, and The Experienced Senior."
+                />
+                <Spacer spacer="32px" />
+                <Paragraph
+                    title="Considering the experienced students"
+                    text="One group of students that would help the process of helping new students would be experienced students. How would they become mentors? I wanted to create a process that offered both reward and opportunity for good students; however, I did not want to make it exclusive. I considered a GPA threshold of 3.0 would grant experienced students access to become a mentor automatically. If a student did not meet these requirements, he or she could apply on campus and be interviewed."
+                />
+                <Spacer spacer="32px" />
                 <Spacer spacer="128px" />
                 <Number
                     number="03 - 04"

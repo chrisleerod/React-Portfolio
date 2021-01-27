@@ -28,6 +28,22 @@ export const Block = styled.div`
     }
 `;
 
+export const BigBlock = styled.div`
+    text-align: center;
+    padding: 24px;
+    background-color: #191E21;
+    border-radius: 8px;
+    color: white;
+    p {
+        color: white;
+        opacity: 1;
+    }
+`;
+
+export const ParagraphSection = styled.div`
+
+`;
+
 export const Paragraph2 = styled.div`
     margin-top: 16px;
 `;
