@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 class about extends Component {
     render() {
         return (
-            <>
+            <div className="wrapper">
                 <div className="about-container">
                     <Navbar />
                     <motion.div className="me-card-container"
@@ -156,7 +156,7 @@ class about extends Component {
                     </motion.div>
                 </div>
                 <Footer />
-            </>
+            </div>
         );
     }
 }
