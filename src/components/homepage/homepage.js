@@ -156,9 +156,6 @@ class homepage extends Component {
                         <span style={{ fontStyle: "italic", fontWeight: "600" }}> front-end engineer</span>,
                         and <span style={{ fontStyle: "italic", fontWeight: "600" }}>student</span> based in Nashville, TN.
                         I am passionate about creating cohesive digital design experiences.
-                        <br></br>
-                                <br></br>
-                        Currently looking for 2021 new grad & internship opportunities.
                     </motion.p>
                         </div>
                     </div>
