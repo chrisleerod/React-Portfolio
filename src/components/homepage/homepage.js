@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
 import Navbar from '../navbar/navbar.js';
 import Footer from '../footer/footer.js';
 
