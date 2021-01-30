@@ -67,7 +67,7 @@ class about extends Component {
                                     I’m Chris — a WCAG using product designer, developer, and
                                     student attending Belmont University in Nashville, TN graduating May 2021. I started my
                                     academic career as a Pre-Med student, but fast-forward a couple of years, and I found
-                                    my love for Computer Science and design.
+                                    my love for computer science and design.
                         </p>
                                 <p className="paragraph">
                                     I find joy working on complex design problems, coding, exercising, playing sports and video games,
