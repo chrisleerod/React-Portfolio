@@ -250,7 +250,7 @@ class homepage extends Component {
                                     }}
                                 >
                                     <ProjCard
-                                        background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/prism.png"
+                                        background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/imagecrate.png"
                                         tag="FREELANCE"
                                         year="2018 - PRESENT"
                                         title="imagecrate"
