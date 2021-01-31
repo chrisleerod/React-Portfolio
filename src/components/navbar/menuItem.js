@@ -42,8 +42,8 @@ export const MenuItem = ({ item, toggle }) => {
       <motion.li
         className={active ? "menu-item menu-item-active" : "menu-item"}
         variants={variants}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
+        whileHover={{ scale: 1 }}
+        whileTap={{ scale: 0.99 }}
       >
         <Link rel="noopener" to={href} onClick={handleClick} target={target} className="menu-item-link">
           <div className={target === '_self' ? 'menu-item-label' : 'menu-item-label menu-item-external'}>{label}</div>
