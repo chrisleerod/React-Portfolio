@@ -6,7 +6,6 @@ import Footer from '../footer/footer.js';
 import HomeCard from '../styledComponents/projCard/homeCard';
 import ProjCard from '../styledComponents/projCard';
 
-import { Grid } from '../grid/grid';
 import { Paragraphs } from '../madewith/madewith';
 
 import './homepage.css';
