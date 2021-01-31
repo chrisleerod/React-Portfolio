@@ -199,7 +199,7 @@ class homepage extends Component {
                             <Link to={"/404"} className="item-1" rel="noopener noreferrer">
                                 <motion.div
                                     style={{ flex: 1 }}
-                                    initial={{ backgroundColor: '#828FFF', borderRadius: 8, }}
+                                    initial={{ background: 'linear-gradient(90deg, rgba(194,95,176,1) 0%, rgba(151,10,247,1) 100%)', borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
                                         backgroundColor: '#1C2225',

@@ -37,12 +37,14 @@ export const ProjImgContainer = styled.div`
 
 export const ProjImg = styled.img`
     position: absolute;
-    width: 60%;
-    right: -24px;
-    bottom: -24px;
+    width: 720px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -128px;
     @media only screen and (max-width: 500px) {
         {
-            width: 100%;
+            transform: translateX(-10%);
+            width: 512px;
         }
     }
 `;

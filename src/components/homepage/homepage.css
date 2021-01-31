@@ -54,7 +54,7 @@
   margin-top: 32px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 1.5fr 1fr;
   gap: 32px;
 }
 
@@ -70,12 +70,6 @@
 .content {
   margin-top: 128px;
   margin-bottom: 128px;
-}
-
-.main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr repeat(3, minmax(auto, 60px)) 1fr;
-  grid-gap: 32px;
 }
 
 .card {
@@ -146,7 +140,7 @@
 @media only screen and (max-width: 1000px) {
   .homepage-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 32px 0px;
   }
   .other-items {
