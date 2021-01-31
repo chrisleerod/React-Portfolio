@@ -216,7 +216,7 @@ class homepage extends Component {
                                     />
                                 </motion.div>
                             </Link>
-                            <Link to={"/google"} rel="noopener noreferrer">
+                            <Link to={"/google"} className="other-items" rel="noopener noreferrer">
                                 <motion.div
                                     style={{ flex: 1 }}
                                     initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
