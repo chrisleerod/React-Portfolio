@@ -17,110 +17,133 @@
 }
 
 .top {
-    margin-top: 128px;
-  }
-  
-  .top h1 {
-    font-size: 39.06px;
-    max-width: 1200px;
-    font-weight: 600;
-    line-height: 1.35em;
-  }
-  
-  .intro-p {
-    margin-top: 64px;
-    font-size: 20px;
-    max-width: 750px;
-    font-weight: 400;
-    line-height: 1.65em;
-  }
-  
-  .about-button {
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    font-size: 20px;
-    font-weight: 500;
-    color: #828fff;
-  }
+  margin-top: 128px;
+  text-align: center;
+}
 
-  .about-button-container {
+.top h1 {
+  font-size: 31.25px;
+  max-width: 1200px;
+  font-weight: 600;
+  line-height: 1.35em;
+}
+
+.intro-p {
+  margin: 0 auto;
+  margin-top: 32px;
+  font-size: 20px;
+  font-size: 16px;
+  max-width: 750px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.homepage-grid {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  gap: 32px;
+}
+
+.item-1 {
+  grid-column: 1 / span 2;
+  display: flex;
+}
+
+.other-items {
+  grid-column: 1 / span 1;
+}
+
+.content {
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr repeat(3, minmax(auto, 60px)) 1fr;
+  grid-gap: 32px;
+}
+
+.card {
+  grid-column: 2 span 12;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(auto, 60px));
+  grid-gap: 32px;
+}
+
+.card {
+  grid-column-end: span 4;
+}
+
+.tags {
+  display: flex;
+}
+
+.product-design {
+  margin-right: 8px;
+  padding: 8px 4px;
+  background-color: rgba(0, 0, 0, .15);
+}
+
+.engineering {
+  padding: 8px 4px;
+  background-color: rgba(0, 0, 0, .15);
+}
+
+.view {
+  display: flex;
+}
+
+.view-case {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .top {
+    margin-top: 64px;
+  }
+  .top h1 {
+    font-size: 31.25px;
+  }
+  .intro-p {
+    font-size: 16px;
     margin-top: 32px;
   }
-
-  .content {
-    margin-top: 128px;
-    margin-bottom: 128px;
-  }
-
-  .main {
-    display: grid;
-    grid-template-columns: 1fr  1fr 1fr repeat(3, minmax(auto, 60px)) 1fr;
-    grid-gap: 32px;
-  }
-
-  .card {
-    grid-column: 2 span 12;
-    display: grid;
-    grid-template-columns: repeat(12, minmax(auto, 60px));
-    grid-gap: 32px;
-  }
-
-  .card {
-    grid-column-end: span 4;
-  }
-
-  .tags {
-    display: flex;
-  }
-
-  .product-design {
-    margin-right: 8px;
-    padding: 8px 4px;
-    background-color: rgba(0, 0, 0, .15);
-  }
-
-  .engineering {
-    padding: 8px 4px;
-    background-color: rgba(0, 0, 0, .15);
-  }
-
-  .view {
-    display: flex;
-  }
-
-  .view-case {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  .about-button {
     font-size: 16px;
-    font-weight: bold;
   }
-  
+  .content {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  .nav {
+    display: none;
+  }
+}
 
-  @media only screen and (max-width: 500px) {
-    .wrapper {
-      padding-left: 24px;
-      padding-right: 24px;
-    }
-    .top {
-      margin-top: 64px;
-    }
-    .top h1 {
-      font-size: 31.25px;
-    }
-    .intro-p {
-      font-size: 16px;
-      margin-top: 32px;
-    }
-    .about-button {
-      font-size: 16px;
-    }
-    .content {
-      margin-top: 64px;
-      margin-bottom: 64px;
-    }
-    .nav {
-      display: none;
-    }
+@media only screen and (max-width: 1000px) {
+  .homepage-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    grid-gap: 32px 0px;
   }
+  .other-items {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .homepage-grid {
+    grid-template-rows: 1fr 1fr;
+  }
+}
