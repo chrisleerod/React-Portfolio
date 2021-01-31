@@ -229,7 +229,7 @@ class homepage extends Component {
                                     }}
                                 >
                                     <ProjCard
-                                        background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/prism.png"
+                                        background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/googleproj.png"
                                         tag="PRODUCT DESIGN"
                                         year="2020"
                                         title="Google UX Challenge"
