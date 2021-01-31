@@ -43,8 +43,9 @@ export const ProjImg = styled.img`
     bottom: -128px;
     @media only screen and (max-width: 500px) {
         {
-            transform: translateX(-10%);
-            width: 512px;
+            transform: translateX(-50%);
+            width: 256px;
+            bottom: 96px;
         }
     }
 `;
