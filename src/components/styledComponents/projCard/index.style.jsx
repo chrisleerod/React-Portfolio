@@ -42,6 +42,7 @@ export const ProjImg = styled.img`
     bottom: -24px;
     @media only screen and (max-width: 500px) {
         {
+            width: 100%;
         }
     }
 `;
