@@ -254,7 +254,7 @@ class homepage extends Component {
                                         tag="FREELANCE"
                                         year="2018 - PRESENT"
                                         title="imagecrate"
-                                        description="My freelance design agency that I’ve worked with clients to product web, product, and other design projects."
+                                        description="My freelance design agency that I’ve worked with clients to produce web, product, motion, and other design projects."
                                     />
                                 </motion.div>
                             </Link>
