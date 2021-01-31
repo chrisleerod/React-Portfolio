@@ -22,7 +22,7 @@ const CardProj = ({ tag, year, title, description, views, background }) => {
         />
         <ContentWrapper>
           <Header>
-            <p>{tag}</p>
+            <p style={{letterSpacing: "0.05em"}}>{tag}</p>
             <p>{year}</p>
           </Header>
           <Title>

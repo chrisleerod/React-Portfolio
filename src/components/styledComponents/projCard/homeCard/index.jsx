@@ -22,7 +22,7 @@ const CardProj = ({ tag, year, title, color, views, image }) => {
                 <Header
                     style={{zIndex: 1}}
                 >
-                    <p>{tag}</p>
+                    <p style={{letterSpacing: "0.05em"}}>{tag}</p>
                     <p>{year}</p>
                 </Header>
                 <Title style={{ marginTop: "auto", zIndex: 1 }} >
