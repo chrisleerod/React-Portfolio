@@ -157,7 +157,7 @@ class homepage extends Component {
                                 <p>Hi, I'm Chris –– a <span style={{ fontWeight: "600" }}>product designer</span>,
                         <span style={{ fontWeight: "600" }}> front-end engineer</span>,
                         and <span style={{ fontWeight: "600" }}>student</span> based in Nashville, TN.
-                        I am passionate about creating cohesive digital design experiences.</p>
+                        I am passionate about creating cohesive digital design experiences through code and pixel dragging.</p>
                             </motion.p>
                         </div>
                     </div>
