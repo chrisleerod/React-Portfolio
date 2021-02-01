@@ -211,7 +211,7 @@ class homepage extends Component {
                                     <HomeCard
                                         image="https://raw.githubusercontent.com/chrisleerod/portfolio3/master/images/pd.jpg"
                                         tag="DESIGN / FRONT-END"
-                                        year="Ongoing"
+                                        year="ONGOING"
                                         title="Project Destroyer"
                                     />
                                 </motion.div>
