@@ -228,7 +228,7 @@ class homepage extends Component {
                                 >
                                     <ProjCard
                                         background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/pd-ico.png"
-                                        tag="UX Engineer"
+                                        tag="UX ENGINEER"
                                         year="ONGOING"
                                         title="Project Destroyer"
                                         description="Leading the design and front-end development of a new user experience for Destroyer Bots."
