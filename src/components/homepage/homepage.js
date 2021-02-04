@@ -6,8 +6,6 @@ import Footer from '../footer/footer.js';
 import HomeCard from '../styledComponents/projCard/homeCard';
 import ProjCard from '../styledComponents/projCard';
 
-import { Paragraphs } from '../madewith/madewith';
-
 import './homepage.css';
 
 class homepage extends Component {

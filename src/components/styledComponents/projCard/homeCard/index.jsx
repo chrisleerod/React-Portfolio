@@ -3,14 +3,13 @@ import React from "react";
 import {
     ProjWrapper,
     ProjContentWrapper,
-    Header,
     ProjTitle,
     ProjImg,
     ProjImgContainer,
     ProjDescription
 } from '../index.style';
 
-const CardProj = ({ description, title, color }) => {
+const CardProj = ({ color }) => {
     return (
         <ProjWrapper
             style={{
