@@ -20,13 +20,6 @@
   margin-top: 128px;
 }
 
-.top h1 {
-  font-size: 31.25px;
-  max-width: 1200px;
-  font-weight: 600;
-  line-height: 1.35em;
-}
-
 .intro-p {
   margin-top: 32px;
   font-size: 20px;
@@ -61,6 +54,12 @@
 .item-1 {
   grid-column: 1 / span 2;
   display: flex;
+}
+
+.item-2 {
+  grid-column: 1 / span 2;
+  display: flex;
+  display: none;
 }
 
 .other-items {
@@ -115,6 +114,12 @@
     padding-left: 24px;
     padding-right: 24px;
   }
+  .item-1 {
+    display: none;
+  }
+  .item-2 {
+    display: unset;
+  }
   .top {
     margin-top: 64px;
   }
@@ -129,7 +134,7 @@
     font-size: 16px;
   }
   .content {
-    margin-top: 64px;
+    margin-top: 128px;
     margin-bottom: 64px;
   }
   .nav {
@@ -140,7 +145,7 @@
 @media only screen and (max-width: 1000px) {
   .homepage-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
     grid-gap: 32px 0px;
   }
   .other-items {

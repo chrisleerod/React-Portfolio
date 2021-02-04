@@ -4,12 +4,13 @@ import {
     ProjWrapper,
     ProjContentWrapper,
     Header,
-    Title,
+    ProjTitle,
     ProjImg,
-    ProjImgContainer
+    ProjImgContainer,
+    ProjDescription
 } from '../index.style';
 
-const CardProj = ({ tag, year, title, color, views, image }) => {
+const CardProj = ({ description, title, color }) => {
     return (
         <ProjWrapper
             style={{
@@ -19,17 +20,14 @@ const CardProj = ({ tag, year, title, color, views, image }) => {
             }}
         >
             <ProjContentWrapper>
-                <Header
-                    style={{zIndex: 1}}
-                >
-                    <p style={{letterSpacing: "0.05em"}}>{tag}</p>
-                    <p style={{letterSpacing: "0.05em"}}>{year}</p>
-                </Header>
-                <Title style={{ marginTop: "auto", zIndex: 1 }} >
-                    {title}
-                </Title>
+                <ProjTitle style={{ zIndex: 1 }} >
+                    Project Destroyer
+                </ProjTitle>
+                <ProjDescription style={{ zIndex: 1 }}>
+                    Leading the design and front-end development of a new user experience for Destroyer Bots.
+                </ProjDescription>
                 <ProjImgContainer>
-                    <ProjImg src="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/pd.jpg"
+                    <ProjImg src=""
                     />
                 </ProjImgContainer>
             </ProjContentWrapper>

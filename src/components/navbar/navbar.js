@@ -75,6 +75,9 @@ export default function () {
                     <Link to="/about">
                         <li>About</li>
                     </Link>
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing">
+                        <li>Resume</li>
+                    </a>
                 </ul>
             </div>
             <div className="nav-bg"></div>

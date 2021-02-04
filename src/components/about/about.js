@@ -11,7 +11,7 @@ class about extends Component {
                 <div className="wrapper">
                     <div className="about-container">
                         <Navbar />
-                        <motion.div className="me-card-container"
+                        <motion.div className="me-pic"
                             initial={{
                                 y: 50,
                                 opacity: 0,
@@ -24,6 +24,25 @@ class about extends Component {
                             }}
                             transition={{
                                 delay: 0.1,
+                                ease: [.19, 1, .22, 1],
+                                duration: 2,
+                            }}
+                        >
+                            <img src="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/purple.jpg" alt="" />
+                        </motion.div>
+                        <motion.div className="me-card-container"
+                            initial={{
+                                y: 50,
+                                opacity: 0,
+                                skewY: 0
+                            }}
+                            animate={{
+                                y: 0,
+                                opacity: 1,
+                                skewY: 0
+                            }}
+                            transition={{
+                                delay: 0.2,
                                 ease: [.19, 1, .22, 1],
                                 duration: 2,
                             }}
@@ -135,25 +154,6 @@ class about extends Component {
                                     </a>
                                 </div>
                             </div>
-                        </motion.div>
-                        <motion.div className="me-pic"
-                            initial={{
-                                y: 50,
-                                opacity: 0,
-                                skewY: 0
-                            }}
-                            animate={{
-                                y: 0,
-                                opacity: 1,
-                                skewY: 0
-                            }}
-                            transition={{
-                                delay: 0.3,
-                                ease: [.19, 1, .22, 1],
-                                duration: 2,
-                            }}
-                        >
-                            <img src="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/purple.jpg" alt="" />
                         </motion.div>
                     </div>
                 </div>

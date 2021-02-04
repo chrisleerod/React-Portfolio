@@ -11,13 +11,12 @@
 
 .me-pic {
     max-width: 720px;
+    margin-bottom: 28px;
 }
 
 .me-pic img {
     width: 100%;
-    height: auto;
     border-radius: 8px;
-    margin-top: 16px;
 }
 
 .me-card-container {
@@ -70,7 +69,7 @@
 }
 
 .section {
-    margin-bottom: 48px;
+    margin-bottom: 64px;
     max-width: 640px;
 }
 
@@ -125,11 +124,11 @@
     .link {
         font-size: 16px;
     }
-    .me-pic img {
-        margin-top: -16px;
+    .me-pic {
+        margin-bottom: 16px;
     }
     .me-card-container {
-        margin-bottom: 32px;
+        margin-bottom: 64px;
     }
     .about-container {
         margin-top: 32px;

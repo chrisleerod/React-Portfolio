@@ -20,7 +20,7 @@ class homepage extends Component {
                         <div className="top">
                             <div className="header-container">
                                 <div className="header">
-                                    <motion.h1
+                                    <motion.h3
                                         initial={{
                                             y: 100,
                                             opacity: 1,
@@ -38,10 +38,10 @@ class homepage extends Component {
                                         }}
                                     >
                                         Product{' '}
-                                    </motion.h1>
+                                    </motion.h3>
                                 </div>
                                 <div className="header">
-                                    <motion.h1
+                                    <motion.h3
                                         initial={{
                                             y: 100,
                                             opacity: 1,
@@ -62,10 +62,10 @@ class homepage extends Component {
                                     // }}
                                     >
                                         designer.{' '}
-                                    </motion.h1>
+                                    </motion.h3>
                                 </div>
                                 <div className="header">
-                                    <motion.h1
+                                    <motion.h3
                                         initial={{
                                             y: 100,
                                             opacity: 1,
@@ -86,10 +86,10 @@ class homepage extends Component {
                                     // }}
                                     >
                                         Front-end{' '}
-                                    </motion.h1>
+                                    </motion.h3>
                                 </div>
                                 <div className="header">
-                                    <motion.h1
+                                    <motion.h3
                                         initial={{
                                             y: 100,
                                             opacity: 1,
@@ -110,10 +110,10 @@ class homepage extends Component {
                                     // }}
                                     >
                                         engineer.{' '}
-                                    </motion.h1>
+                                    </motion.h3>
                                 </div>
                                 <div className="header">
-                                    <motion.h1
+                                    <motion.h3
                                         initial={{
                                             y: 100,
                                             opacity: 1,
@@ -134,7 +134,7 @@ class homepage extends Component {
                                     // }}
                                     >
                                         Student.
-                            </motion.h1>
+                            </motion.h3>
                                 </div>
                             </div>
                             <motion.p className="intro-p"
@@ -199,7 +199,7 @@ class homepage extends Component {
                             <Link to={"/404"} className="item-1" rel="noopener noreferrer">
                                 <motion.div
                                     style={{ flex: 1 }}
-                                    initial={{ background: 'linear-gradient(90deg, rgba(194,95,176,1) 0%, rgba(151,10,247,1) 100%)', borderRadius: 8, }}
+                                    initial={{ borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
                                         backgroundColor: '#1C2225',
@@ -213,6 +213,27 @@ class homepage extends Component {
                                         tag="DESIGN / FRONT-END"
                                         year="ONGOING"
                                         title="Project Destroyer"
+                                    />
+                                </motion.div>
+                            </Link>
+                            <Link to={"/404"} className="item-2" rel="noopener noreferrer">
+                                <motion.div
+                                    style={{ flex: 1 }}
+                                    initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
+                                    whileTap={{ scale: 0.995, }}
+                                    whileHover={{
+                                        backgroundColor: '#1C2225',
+                                        translateY: -5,
+                                        boxShadow: "rgba(0, 0, 0, 0.2) 0px 20px 30px",
+                                        transition: { duration: 0.2 }
+                                    }}
+                                >
+                                    <ProjCard
+                                        background="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/pd-ico.png"
+                                        tag="UX Engineer"
+                                        year="ONGOING"
+                                        title="Project Destroyer"
+                                        description="Leading the design and front-end development of a new user experience for Destroyer Bots."
                                     />
                                 </motion.div>
                             </Link>
@@ -260,9 +281,6 @@ class homepage extends Component {
                             </Link>
                         </motion.div>
                     </motion.div>
-                    <div className="built">
-                        <Paragraphs />
-                    </div>
                 </div>
                 <Footer />
             </>
