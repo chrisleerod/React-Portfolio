@@ -47,7 +47,15 @@ class freelance extends Component {
                             }}
                         >
                             <h2>Freelance projects</h2>
-                            <p>Below will be selected work primarily showcasing my marketing animation projects completed through my freelance agency, imagecrate.</p>
+                            <p>Below will be selected work primarily showcasing my marketing animation projects completed through my freelance agency, <a className="here" href="https://twitter.com/imagecrate" target="_blank" rel="noopener noreferrer">
+                                <motion.div
+                                    whileTap={{ scale: 0.97, }}
+                                    whileHover={{
+                                        color: "#ced2fa",
+                                        transition: { duration: 0.2 }
+                                    }} className="link">imagecrate
+                                </motion.div>
+                            </a>.</p>
                         </motion.div>
                         <motion.div className="freelance-grid"
                             initial={{
