@@ -128,7 +128,7 @@ export const Description = styled.p`
     font-weight: 400;
     line-height: 1.5em;
     margin-top: 8px;
-    opacity: 0.8;
+    opacity: 0.9;
 `;
 
 export const ProjDescription = styled.p`
@@ -137,7 +137,7 @@ export const ProjDescription = styled.p`
     font-weight: 400;
     line-height: 1.5em;
     margin-top: 8px;
-    opacity: 0.8;
+    opacity: 0.9;
     max-width: 400px;
 `;
 

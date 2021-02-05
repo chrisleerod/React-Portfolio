@@ -35,7 +35,7 @@ class homepage extends Component {
                                             duration: 2,
                                         }}
                                     >
-                                        Hi,{' '}
+                                        Hello,{' '}
                                     </motion.h3>
                                 </div>
                                 <div className="header">
@@ -107,7 +107,7 @@ class homepage extends Component {
                                     // delay: 0.22
                                     // }}
                                     >
-                                        Rodriguez.{' '}
+                                        Rodriguez{' '}
                                     </motion.h3>
                                 </div>
                                 <div className="header">
@@ -152,9 +152,9 @@ class homepage extends Component {
                                     duration: 2,
                                 }}
                             >
-                                <p>I'm a <span style={{ fontWeight: "600" }}>product designer</span>,
-                        <span style={{ fontWeight: "600" }}> front-end engineer</span>,
-                        and <span style={{ fontWeight: "600" }}>student</span> based in Nashville, TN.
+                                <p>I'm a <span style={{ fontWeight: "500" }}>product designer</span>,
+                        <span style={{ fontWeight: "500" }}> front-end engineer</span>,
+                        and <span style={{ fontWeight: "500" }}>student</span> based in Nashville, TN.
                         I am passionate about creating cohesive digital experiences through code and design.</p>
                             </motion.p>
                         </div>

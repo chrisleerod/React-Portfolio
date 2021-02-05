@@ -11,7 +11,7 @@ export const Paragraph = styled.div`
     p {
         font-size: 16px;
         color: #F2F2F2;
-        opacity: 0.8;
+        opacity: 0.9;
         letter-spacing: -0.011em;
         line-height: 1.5em;
     }
