@@ -6,7 +6,7 @@ export const CardWrapper = styled.div`
     min-width: 100%;
     height: 100%;
     border-radius: 8px;
-    border: 1px solid #283237;
+    border: 1px solid #21282C;
     @media only screen and (max-width: 500px) {
             flex-direction: column;
         }
@@ -18,7 +18,7 @@ export const ProjWrapper = styled.div`
     height: 100%;
     border-radius: 8px;
     overflow: hidden;
-    border: 1px solid #283237;
+    border: 1px solid #21282C;
     background: linear-gradient(45deg, rgba(160,19,233,.8) 0%, rgba(237,136,145,.8) 100%);
     @media only screen and (max-width: 500px) {
             flex-direction: column;
@@ -128,7 +128,7 @@ export const Description = styled.p`
     font-weight: 400;
     line-height: 1.5em;
     margin-top: 8px;
-    opacity: 0.9;
+    opacity: 0.8;
 `;
 
 export const ProjDescription = styled.p`
