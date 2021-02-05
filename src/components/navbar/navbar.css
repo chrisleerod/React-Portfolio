@@ -7,7 +7,6 @@ header {
   height: 72px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #21282C;
 }
 
 /* Desktop CSS */
@@ -104,7 +103,6 @@ header a {
   backdrop-filter: saturate(100%) blur(20px);
   background-color: rgba(18, 22, 25, 0.6);
   transform-origin: top center;
-  border-bottom: 1px solid #21282C;
 }
 
 .menu-toggle {
