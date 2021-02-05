@@ -35,7 +35,7 @@ class homepage extends Component {
                                             duration: 2,
                                         }}
                                     >
-                                        Product{' '}
+                                        Hi,{' '}
                                     </motion.h3>
                                 </div>
                                 <div className="header">
@@ -59,7 +59,7 @@ class homepage extends Component {
                                     // delay: 0.14
                                     // }}
                                     >
-                                        designer.{' '}
+                                        I'm{' '}
                                     </motion.h3>
                                 </div>
                                 <div className="header">
@@ -83,7 +83,7 @@ class homepage extends Component {
                                     // delay: 0.18
                                     // }}
                                     >
-                                        Front-end{' '}
+                                        Chris{' '}
                                     </motion.h3>
                                 </div>
                                 <div className="header">
@@ -107,7 +107,7 @@ class homepage extends Component {
                                     // delay: 0.22
                                     // }}
                                     >
-                                        engineer.{' '}
+                                        Rodriguez.{' '}
                                     </motion.h3>
                                 </div>
                                 <div className="header">
@@ -131,7 +131,7 @@ class homepage extends Component {
                                     // delay: 0.26
                                     // }}
                                     >
-                                        Student.
+                                        
                             </motion.h3>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@ class homepage extends Component {
                                     duration: 2,
                                 }}
                             >
-                                <p>Hi, I'm Chris –– a <span style={{ fontWeight: "600" }}>product designer</span>,
+                                <p>I'm a <span style={{ fontWeight: "600" }}>product designer</span>,
                         <span style={{ fontWeight: "600" }}> front-end engineer</span>,
                         and <span style={{ fontWeight: "600" }}>student</span> based in Nashville, TN.
                         I am passionate about creating cohesive digital experiences through code and design.</p>
