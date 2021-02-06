@@ -76,10 +76,10 @@ class freelance extends Component {
                         >
                             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/PrismAIO/status/1291131868608376832?s=20">
                                 <motion.div
-                                    initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
+                                    initial={{ backgroundColor: '#131419', borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
-                                        backgroundColor: '#1C2225',
+                                        backgroundColor: '#181A20',
                                         translateY: -5,
                                         boxShadow: "rgba(0, 0, 0, 0.2) 0px 20px 30px",
                                         transition: { duration: 0.2 }
@@ -97,10 +97,10 @@ class freelance extends Component {
                             </a>
                             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Cybersole/status/1138914695144968193?s=20">
                                 <motion.div
-                                    initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
+                                    initial={{ backgroundColor: '#131419', borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
-                                        backgroundColor: '#1C2225',
+                                        backgroundColor: '#181A20',
                                         translateY: -5,
                                         boxShadow: "rgba(0, 0, 0, 0.2) 0px 20px 30px",
                                         transition: { duration: 0.2 }
@@ -118,10 +118,10 @@ class freelance extends Component {
                             </a>
                             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/KodaiAIO/status/1187082493968543744?s=20">
                                 <motion.div
-                                    initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
+                                    initial={{ backgroundColor: '#131419', borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
-                                        backgroundColor: '#1C2225',
+                                        backgroundColor: '#181A20',
                                         translateY: -5,
                                         boxShadow: "rgba(0, 0, 0, 0.2) 0px 20px 30px",
                                         transition: { duration: 0.2 }
@@ -139,10 +139,10 @@ class freelance extends Component {
                             </a>
                             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/soleaio/status/1322312448154738690?s=20">
                                 <motion.div
-                                    initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
+                                    initial={{ backgroundColor: '#131419', borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
-                                        backgroundColor: '#1C2225',
+                                        backgroundColor: '#181A20',
                                         translateY: -5,
                                         boxShadow: "rgba(0, 0, 0, 0.2) 0px 20px 30px",
                                         transition: { duration: 0.2 },

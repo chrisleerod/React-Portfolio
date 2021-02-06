@@ -13,7 +13,6 @@ code {
     monospace;
 }
 
-
 button, svg, a {
   cursor: pointer;
   display: inline-flex;

@@ -6,7 +6,12 @@ export const CardWrapper = styled.div`
     min-width: 100%;
     height: 100%;
     border-radius: 8px;
-    border: 1px solid #21282C;
+    border: 1px solid #1C2225;
+    transition: border 0.2s;
+    &:hover {
+        border: 1px solid #343E44;
+        transition: all 0.2;
+    }
     @media only screen and (max-width: 500px) {
             flex-direction: column;
         }

@@ -21,11 +21,10 @@
 
 .me-card-container {
     padding: 16px;
-    background-color: #191E21;
+    background-color: #131419;
     border-radius: 8px;
     margin-bottom: 64px;
     color: #F2F2F2;
-    border: 1px solid rgb(40, 50, 55);
 }
 
 .me-card {

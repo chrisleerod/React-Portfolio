@@ -5,7 +5,7 @@ export const Paragraph = styled.div`
     margin: 0 auto;
     h4 {
         font-size: 25.00px;
-        font-weight: 700;
+        font-weight: 600;
         letter-spacing: -0.019em;
     }
     p {
@@ -19,7 +19,7 @@ export const Paragraph = styled.div`
 
 export const Block = styled.div`
     padding: 24px;
-    background-color: #191E21;
+    background-color: #131419;
     border-radius: 8px;
     color: white;
     p {
@@ -31,7 +31,7 @@ export const Block = styled.div`
 export const BigBlock = styled.div`
     text-align: center;
     padding: 24px;
-    background-color: #191E21;
+    background-color: #131419;
     border-radius: 8px;
     color: white;
     p {
@@ -63,6 +63,6 @@ export const Number = styled.div`
     font-weight: 700;
     font-size: 14px;
     margin-right: 16px;
-    background-color #191E21;
+    background-color #131419;
     border-radius: 4px;
 `;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const BlockImageContainer = styled.div`
     padding: 64px;
-    background-color: #191E21;
+    background-color: #131419;
     border-radius: 8px;
     max-width: 1040px;
     margin: 0 auto;

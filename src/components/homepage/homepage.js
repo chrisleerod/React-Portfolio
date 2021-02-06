@@ -200,7 +200,7 @@ class homepage extends Component {
                                     initial={{ borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
-                                        backgroundColor: '#1C2225',
+                                        backgroundColor: '#181A20',
                                         translateY: -5,
                                         boxShadow: "rgba(0, 0, 0, 0.2) 0px 20px 30px",
                                         transition: { duration: 0.2 }
@@ -217,10 +217,10 @@ class homepage extends Component {
                             <Link to={"/404"} className="item-2" rel="noopener noreferrer">
                                 <motion.div
                                     style={{ flex: 1 }}
-                                    initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
+                                    initial={{ backgroundColor: '#131419', borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
-                                        backgroundColor: '#1C2225',
+                                        backgroundColor: '#181A20',
                                         translateY: -5,
                                         boxShadow: "rgba(0, 0, 0, 0.2) 0px 20px 30px",
                                         transition: { duration: 0.2 }
@@ -238,10 +238,10 @@ class homepage extends Component {
                             <Link to={"/google"} className="other-items" rel="noopener noreferrer">
                                 <motion.div
                                     style={{ flex: 1 }}
-                                    initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
+                                    initial={{ backgroundColor: '#131419', borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
-                                        backgroundColor: '#1C2225',
+                                        backgroundColor: '#181A20',
                                         translateY: -5,
                                         boxShadow: "rgba(0, 0, 0, 0.2) 0px 20px 30px",
                                         transition: { duration: 0.2 }
@@ -259,10 +259,10 @@ class homepage extends Component {
                             <Link to={"/freelance"} rel="noopener noreferrer" href="https://twitter.com/PrismAIO/status/1291131868608376832?s=20">
                                 <motion.div
                                     style={{ flex: 1 }}
-                                    initial={{ backgroundColor: '#191E21', borderRadius: 8, }}
+                                    initial={{ backgroundColor: '#131419', borderRadius: 8, }}
                                     whileTap={{ scale: 0.995, }}
                                     whileHover={{
-                                        backgroundColor: '#1C2225',
+                                        backgroundColor: '#181A20',
                                         translateY: -5,
                                         boxShadow: "rgba(0, 0, 0, 0.2) 0px 20px 30px",
                                         transition: { duration: 0.2 }

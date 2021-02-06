@@ -6,7 +6,7 @@ export const IconParagraphWrapper = styled.div`
     margin: 0 auto;
     display: flex;
     align-items: center;
-    background-color: #191E21;
+    background-color: #131419;
     border-radius: 8px;
     @media only screen and (max-width: 500px) {
         padding: 16px;
