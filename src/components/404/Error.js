@@ -9,6 +9,7 @@ export const Error = () => {
     return (
         <div className="error-wrapper">
             <Navbar />
+            <div></div>
             <div className="spacer1"></div>
             <div className="error-content">
                 <h4>Oops!</h4>
