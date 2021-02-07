@@ -1,11 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
+import Navbar from '../navbar/navbar.js';
+import Footer from '../footer/footer.js';
 import './Error.css';
 
 export const Error = () => {
     return (
         <div className="error-wrapper">
+            <Navbar />
             <div className="spacer1"></div>
             <div className="error-content">
                 <h4>Oops!</h4>
@@ -33,6 +36,7 @@ export const Error = () => {
                 </Link>
             </div>
             <div className="spacer2"></div>
+            <Footer />
         </div>
     )
 };
