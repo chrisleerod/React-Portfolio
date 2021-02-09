@@ -19,7 +19,7 @@ export const Paragraph = styled.div`
 
 export const Block = styled.div`
     padding: 24px;
-    background-color: #131419;
+    background-color: #181A20;
     border-radius: 8px;
     color: white;
     p {
@@ -31,7 +31,7 @@ export const Block = styled.div`
 export const BigBlock = styled.div`
     text-align: center;
     padding: 24px;
-    background-color: #131419;
+    background-color: #181A20;
     border-radius: 8px;
     color: white;
     p {
@@ -63,6 +63,6 @@ export const Number = styled.div`
     font-weight: 700;
     font-size: 14px;
     margin-right: 16px;
-    background-color #131419;
+    background-color #181A20;
     border-radius: 4px;
 `;
