@@ -16,6 +16,13 @@ export const Header = styled(motion.div)`
     p {
         opacity: 0.9;
         margin-bottom: 32px;
+        line-height: 1.5em;
+    }
+    @media only screen and (max-width: 500px) {
+        margin-top: 64px;
+        h2 {
+            font-size: 31.25px;
+        }
     }
 `;
 
@@ -78,6 +85,7 @@ export const SideTitle = styled(motion.h5)`
     min-width: 378px;
     font-weight: 500;
     padding-right: 64px;
+    opacity: 0.9;
     @media only screen and (max-width: 900px) {
         min-width: 250px;
         padding-right: 32px;
