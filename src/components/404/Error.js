@@ -27,7 +27,7 @@ export const Error = () => {
                     <motion.div className="home-button"
                         whileTap={{ scale: 0.97, }}
                         whileHover={{
-                            backgroundColor: '#1C2225',
+                            backgroundColor: '#181A20',
                             transition: { duration: 0.2 }
                         }}
                     >

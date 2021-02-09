@@ -7,7 +7,7 @@ export const PersonaWrapper = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #131419;
+    background-color: #181A20;
     border-radius: 8px;
     @media only screen and (max-width: 500px) {
         padding: 16px;
