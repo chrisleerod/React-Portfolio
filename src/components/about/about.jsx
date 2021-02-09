@@ -119,7 +119,7 @@ const About = () => {
                             <ParagraphTitle>
                                 About me
                             </ParagraphTitle>
-                            <p><span role="img">👋</span> I’m Chris — a product designer, developer, entrepreneur, and student attending Belmont University in Nashville, TN. I started my academic career as a Pre-Med student, but fast-forward a couple of years, and I found my love for computer science and design.</p>
+                            <p><span role="img" aria-label="waving hand">👋</span> I’m Chris — a product designer, developer, entrepreneur, and student attending Belmont University in Nashville, TN. I started my academic career as a Pre-Med student, but fast-forward a couple of years, and I found my love for computer science and design.</p>
                             <br />
                             <p>I find joy working on complex design problems, coding, exercising, playing sports and video games, and hanging with friends and family.</p>
                             <br />
