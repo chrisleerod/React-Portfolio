@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 1264px;
+  max-width: 1144px;
   padding-left: 32px;
   padding-right: 32px;
   margin: 0 auto;
@@ -38,7 +38,7 @@
   margin-top: 32px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1.75fr 1fr;
+  grid-template-rows: 1.5fr 1fr;
   gap: 32px;
 }
 

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 
 import Homepage from "./components/homepage/homepage";
-import About from "./components/about/about.js";
+import About from "./components/about/about.jsx";
 import Process from "./components/process.js";
 import Freelance from "./components/freelance/freelance.js";
 import Error from "./components/404/Error.js";
