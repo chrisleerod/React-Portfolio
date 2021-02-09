@@ -2,11 +2,11 @@ import styled from 'styled-components'
 import { motion } from "framer-motion";
 
 export const AboutWrapper = styled(motion.div)`
-    padding: 0px 32px;
 `;
 
-export const Header = styled(motion.div)`\
-    max-width: 1080px;
+export const Header = styled(motion.div)`
+    padding: 0 32px;
+    max-width: 1144px;
     margin: 0 auto;
     margin-top: 128px;
     margin-bottom: 64px;
@@ -44,25 +44,35 @@ export const BioLink = styled(motion.div)`
 export const ContentContainer = styled(motion.div)`
     margin: 0 auto;
     margin-top: 64px;
-    max-width: 1080px;
+    max-width: 1144px;
+    padding: 0 32px;
 `;
 
 export const Row = styled(motion.div)`
     display: grid;
     grid-template-columns: 1fr auto;
     margin-bottom: 64px;
+    @media only screen and (max-width: 900px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const LastRow = styled(motion.div)`
     display: grid;
     grid-template-columns: 1fr auto;
     margin-bottom: 128px;
+    @media only screen and (max-width: 900px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const SideContainer = styled.div`
     p {
         opacity: 0.9;
         margin-top: 8px;
+    }
+    @media only screen and (max-width: 900px) {
+        display: none;
     }
 `;
 
@@ -71,6 +81,9 @@ export const SideTitle = styled(motion.h5)`
     min-width: 378px;
     font-weight: 500;
     margin-right: 64px;
+    @media only screen and (max-width: 900px) {
+        display: none;
+    }
 `;
 
 export const Content = styled(motion.div)`
@@ -79,6 +92,9 @@ export const Content = styled(motion.div)`
     p {
         line-height: 1.5em;
         opacity: 0.9;
+    }
+    @media only screen and (max-width: 900px) {
+        max-width: 100%;
     }
 `;
 
