@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Navbar from '../navbar/navbar.js';
 import Footer from '../footer/footer.js';
 
@@ -45,7 +44,7 @@ const About = () => {
                     <h2>About me</h2>
                     <p>My attempt at summarizing my life and motivations into 1 page.</p>
                     <Links>
-                        <a href="">
+                        <a href="mailto:chrisleerod@gmail.com">
                             <MotionLink
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
@@ -54,7 +53,7 @@ const About = () => {
                                 }} className="link">Email
                                 </MotionLink>
                         </a>
-                        <a href="">
+                        <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod">
                             <MotionLink
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
@@ -63,7 +62,7 @@ const About = () => {
                                 }} className="link">LinkedIn
                                 </MotionLink>
                         </a>
-                        <a href="">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/chrisleerod">
                             <MotionLink
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
