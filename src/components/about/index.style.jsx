@@ -53,7 +53,6 @@ export const Row = styled(motion.div)`
     grid-template-columns: 1fr auto;
     margin-bottom: 64px;
     @media only screen and (max-width: 900px) {
-        grid-template-columns: 1fr;
     }
 `;
 
@@ -62,7 +61,6 @@ export const LastRow = styled(motion.div)`
     grid-template-columns: 1fr auto;
     margin-bottom: 128px;
     @media only screen and (max-width: 900px) {
-        grid-template-columns: 1fr;
     }
 `;
 
@@ -72,7 +70,6 @@ export const SideContainer = styled.div`
         margin-top: 8px;
     }
     @media only screen and (max-width: 900px) {
-        display: none;
     }
 `;
 
@@ -80,8 +77,12 @@ export const SideTitle = styled(motion.h5)`
     width: 100%;
     min-width: 378px;
     font-weight: 500;
-    margin-right: 64px;
+    padding-right: 64px;
     @media only screen and (max-width: 900px) {
+        min-width: 250px;
+        padding-right: 32px;
+    }
+    @media only screen and (max-width: 750px) {
         display: none;
     }
 `;

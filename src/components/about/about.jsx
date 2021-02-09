@@ -114,7 +114,7 @@ const About = () => {
                         </Content>
                     </Row>
                     <Row>
-                        <SideTitle>My bio</SideTitle>
+                        <SideTitle>About me</SideTitle>
                         <Content>
                             <ParagraphTitle>
                                 About me
@@ -131,11 +131,10 @@ const About = () => {
                             <SideTitle>
                                 Freelance
                             </SideTitle>
-                            <p>February 2018 - Present</p>
                         </SideContainer>
                         <Content>
                             <ParagraphTitle>
-                                About me
+                                My freelance business
                             </ParagraphTitle>
                             <p>
                                 I started my freelance design company back in February 2018. I have worked with
