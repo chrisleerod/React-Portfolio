@@ -20,6 +20,7 @@ export const Header = styled(motion.div)`
     }
     @media only screen and (max-width: 500px) {
         margin-top: 64px;
+        padding: 0 24px;
         h2 {
             font-size: 31.25px;
         }
@@ -53,6 +54,9 @@ export const ContentContainer = styled(motion.div)`
     margin-top: 64px;
     max-width: 1144px;
     padding: 0 32px;
+    @media only screen and (max-width: 500px) {
+        padding: 0 24px;
+    }
 `;
 
 export const Row = styled(motion.div)`
