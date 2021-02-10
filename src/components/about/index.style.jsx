@@ -91,7 +91,7 @@ export const SideTitle = styled(motion.h5)`
     min-width: 378px;
     font-weight: 500;
     padding-right: 64px;
-    opacity: 0.9;
+    opacity: 1;
     @media only screen and (max-width: 900px) {
         min-width: 250px;
         padding-right: 32px;

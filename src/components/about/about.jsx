@@ -114,7 +114,7 @@ const About = () => {
                         </Content>
                     </Row>
                     <Row>
-                        <SideTitle>About me</SideTitle>
+                        <SideTitle>Elevator pitch</SideTitle>
                         <Content>
                             <ParagraphTitle>
                                 About me
