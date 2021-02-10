@@ -41,12 +41,14 @@ export const Links = styled(motion.div)`
 export const MotionLink = styled(motion.div)`
     text-decoration: none;
     color: #828fff;
-    margin-right: 32px;
+    font-size: 14px;
+    font-weight: 700;
 `;
 
 export const BioLink = styled(motion.div)`
     text-decoration: none;
     color: #828fff;
+    font-weight: 700;
 `;
 
 export const ContentContainer = styled(motion.div)`

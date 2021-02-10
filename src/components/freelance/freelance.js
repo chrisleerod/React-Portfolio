@@ -49,6 +49,7 @@ class freelance extends Component {
                             <h2>Freelance projects</h2>
                             <p>Below will be selected work primarily showcasing my marketing animation projects completed through my freelance agency, <a className="here" href="https://twitter.com/imagecrate" target="_blank" rel="noopener noreferrer">
                                 <motion.div
+                                    style={{ color: '#828fff', fontWeight: '700' }}
                                     whileTap={{ scale: 0.97, }}
                                     whileHover={{
                                         color: "#ced2fa",

@@ -2,11 +2,14 @@ import React from "react";
 
 import {
     RegularImage,
+    ImageContainer
 } from './index.style';
 
 const Image = ({ image }) => {
     return (
-        <RegularImage src={image} />
+        <ImageContainer>
+            <RegularImage src={image} />
+        </ImageContainer>
     );
 };
 

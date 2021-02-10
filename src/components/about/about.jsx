@@ -44,7 +44,7 @@ const About = () => {
                     <h2>About me</h2>
                     <p>My attempt at summarizing my life and motivations into 1 page.</p>
                     <Links>
-                        <a href="mailto:chrisleerod@gmail.com">
+                        <a style={{ marginRight: '32px' }} href="mailto:chrisleerod@gmail.com">
                             <MotionLink
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
@@ -53,7 +53,7 @@ const About = () => {
                                 }} className="link">Email
                                 </MotionLink>
                         </a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod">
+                        <a style={{ marginRight: '32px' }} target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod">
                             <MotionLink
                                 whileTap={{ scale: 0.97, }}
                                 whileHover={{
