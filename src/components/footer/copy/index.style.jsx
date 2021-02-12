@@ -26,4 +26,6 @@ export const CopyText = styled(motion.p)`
     color: #F2F2F2;
     font-weight: 700;
     margin-left: 8px;
+    user-select: none;
+    cursor: pointer;
 `;
