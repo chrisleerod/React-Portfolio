@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import Copy from './copy';
 
 import {
@@ -19,13 +18,13 @@ const Footer = () => {
                 </FooterText>
             </Left>
             <Right>
-                <a href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view">
+                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view">
                     <p>Resume</p>
                 </a>
-                <a style={{margin: '0px 32px'}} href="https://github.com/chrisleerod">
+                <a target="_blank" rel="noopener noreferrer" style={{margin: '0px 32px'}} href="https://github.com/chrisleerod">
                    <p>GitHub</p>
                 </a>
-                <a href="https://linkedin.com/in/chrisleerod">
+                <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod">
                     <p>LinkedIn</p>
                 </a>
             </Right>
