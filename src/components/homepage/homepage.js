@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom'
 import { motion } from "framer-motion";
 import Navbar from '../navbar/navbar.js';
-import Footer from '../footer/footer.js';
+import Footer from '../footer/index.jsx';
 import HomeCard from '../styledComponents/projCard/homeCard';
 import ProjCard from '../styledComponents/projCard';
 

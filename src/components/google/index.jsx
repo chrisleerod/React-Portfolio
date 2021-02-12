@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from '../navbar/navbar.js';
-import Footer from '../footer/footer.js';
+import Footer from '../footer/index.jsx';
 import ProjHeader from '../styledComponents/projHeader';
 import ProjInfo from '../styledComponents/projInfo';
 import Paragraph from '../styledComponents/projParagraph';

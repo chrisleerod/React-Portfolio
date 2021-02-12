@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import ProjCard from '../styledComponents/projCard';
 import Navbar from '../navbar/navbar.js';
-import Footer from '../footer/footer.js';
+import Footer from '../footer/index.jsx';
 
 class freelance extends Component {
     render() {
