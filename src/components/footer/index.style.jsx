@@ -6,13 +6,12 @@ export const FooterWrapper = styled(motion.div)`
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-bottom: 128px;
+    margin-bottom: 64px;
     max-width: 1144px;
     padding: 0 32px;
     width: 100%;
     @media only screen and (max-width: 500px) {
         padding: 0 24px;
-        margin-bottom: 64px;
     }
 `;
 
