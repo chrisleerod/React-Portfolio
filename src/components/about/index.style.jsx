@@ -30,8 +30,7 @@ export const Header = styled(motion.div)`
 export const Line = styled(motion.div)`
     width: 100%;
     height: 1px;
-    background-color: #F2F2F2;
-    opacity: 0.2;
+    background-color: #1C2225;
 `;
 
 export const Links = styled(motion.div)`
