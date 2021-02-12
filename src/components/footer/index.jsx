@@ -1,5 +1,6 @@
 import React from "react";
 import Copy from './copy';
+import { motion } from "framer-motion";
 
 import {
     FooterWrapper,
@@ -18,15 +19,26 @@ const Footer = () => {
                 </FooterText>
             </Left>
             <Right>
-                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view">
-                    <p>Resume</p>
-                </a>
-                <a target="_blank" rel="noopener noreferrer" style={{margin: '0px 32px'}} href="https://github.com/chrisleerod">
-                   <p>GitHub</p>
-                </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod">
+                <motion.a target="_blank" rel="noopener noreferrer" style={{ marginRight: '64px' }} href="https://github.com/chrisleerod"
+                    initial={{ opacity: 1, }}
+                    whileTap={{ scale: 0.97, }}
+                    whileHover={{
+                        opacity: 0.9,
+                        transition: { duration: 0.2 }
+                    }}
+                >
+                    <p>GitHub</p>
+                </motion.a>
+                <motion.a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/chrisleerod"
+                    initial={{ opacity: 1, }}
+                    whileTap={{ scale: 0.97, }}
+                    whileHover={{
+                        opacity: 0.9,
+                        transition: { duration: 0.2 }
+                    }}
+                >
                     <p>LinkedIn</p>
-                </a>
+                </motion.a>
             </Right>
         </FooterWrapper>
     );

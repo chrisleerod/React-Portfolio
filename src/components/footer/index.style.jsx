@@ -17,10 +17,10 @@ export const FooterWrapper = styled(motion.div)`
 `;
 
 export const Left = styled(motion.div)`
+    margin-bottom: 64px;
     margin-right: 32px;
     @media only screen and (max-width: 500px) {
         margin-right: 0px;
-        margin-bottom: 64px;
     }
 `;
 
