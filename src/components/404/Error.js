@@ -11,7 +11,7 @@ export const Error = () => {
             <Navbar />
             <div className="spacer1"></div>
             <div className="error-content">
-                <h4>Oops!</h4>
+                <h2>Oops!</h2>
                 <p>I’m currently in the process of redesigning (and developing) my site. My case studies and projects
                 will be uploaded soon. In the meantime, check out my <a className="resume" href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <motion.div
