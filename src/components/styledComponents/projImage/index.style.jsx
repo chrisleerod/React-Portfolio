@@ -6,6 +6,7 @@ export const BlockImageContainer = styled.div`
     border-radius: 8px;
     max-width: 1080px;
     margin: 0 auto;
+    height: auto;
     @media only screen and (max-width: 500px) {
         padding: 16px;
     }
@@ -13,11 +14,13 @@ export const BlockImageContainer = styled.div`
 
 export const ImageContainer = styled.div`
     display: flex;
+    height: auto;
 `;
 
 export const RegularImage = styled.img`
     flex-grow: 1;
     width: 100%;
+    height: auto;
     max-width: 1080px;
     display: block;
     margin: 0 auto;
