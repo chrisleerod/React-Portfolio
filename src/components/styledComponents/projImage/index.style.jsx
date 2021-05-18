@@ -13,12 +13,9 @@ export const BlockImageContainer = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-    display: flex;
-    height: auto;
 `;
 
 export const RegularImage = styled.img`
-    flex-grow: 1;
     width: 100%;
     height: auto;
     max-width: 1080px;
