@@ -154,7 +154,7 @@ class homepage extends Component {
                             >
                                 <p>I'm a <span style={{ fontWeight: "500" }}>product designer</span>,
                         <span style={{ fontWeight: "500" }}> front-end engineer</span>,
-                        and <span style={{ fontWeight: "500" }}>student</span> based in Nashville, TN.
+                        and <span style={{ fontWeight: "500" }}>entrepreneur</span> based in Nashville, TN.
                         I am passionate about creating cohesive digital experiences through code and design.</p>
                             </motion.p>
                         </div>
