@@ -108,7 +108,7 @@ const About = () => {
                     }}
                 >
                     <Row>
-                        <SideTitle>Student, developer, product designer, and entrepreneur</SideTitle>
+                        <SideTitle>Developer, product designer, and entrepreneur</SideTitle>
                         <Content>
                             <BioPic src="https://raw.githubusercontent.com/chrisleerod/React-Portfolio/master/src/components/images/purple.jpg" alt="" />
                         </Content>
